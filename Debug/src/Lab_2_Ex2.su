@@ -1,0 +1,12 @@
+iocon_15xx.h:95:20:void Chip_IOCON_PinMuxSet(LPC_IOCON_T*, uint8_t, uint8_t, uint32_t)	24	static
+gpio_15xx.h:146:20:void Chip_GPIO_SetPinDIROutput(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+gpio_15xx.h:158:20:void Chip_GPIO_SetPinDIRInput(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+Lab_2_Ex2.cpp:47:2:DigitalIoPin::DigitalIoPin(int, int, bool, bool, bool)	32	static
+Lab_2_Ex2.cpp:78:10:DigitalIoPin::~DigitalIoPin()	16	static
+Lab_2_Ex2.cpp:78:10:virtual DigitalIoPin::~DigitalIoPin()	16	static
+Lab_2_Ex2.cpp:96:13:void prvSetupHardware()	8	static
+Lab_2_Ex2.cpp:106:13:void vLEDTask1(void*)	24	static
+Lab_2_Ex2.cpp:121:13:void vLEDTask2(void*)	40	static
+Lab_2_Ex2.cpp:135:13:void vUARTTask(void*)	24	static
+Lab_2_Ex2.cpp:157:6:void vConfigureTimerForRunTimeStats()	8	static
+Lab_2_Ex2.cpp:170:5:int main()	16	static

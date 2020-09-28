@@ -1,0 +1,6 @@
+Lab_4_Ex3.cpp:98:13:void prvSetupHardware()	8	static
+Lab_4_Ex3.cpp:108:13:void receive_task(void*)	232	static
+Lab_4_Ex3.cpp:156:13:void send_task(void*)	296	static
+Lab_4_Ex3.cpp:204:13:void vUARTTask(void*)	24	static
+Lab_4_Ex3.cpp:226:6:void vConfigureTimerForRunTimeStats()	8	static
+Lab_4_Ex3.cpp:239:5:int main()	16	static

@@ -1,0 +1,15 @@
+iocon_15xx.h:95:20:void Chip_IOCON_PinMuxSet(LPC_IOCON_T*, uint8_t, uint8_t, uint32_t)	24	static
+gpio_15xx.h:121:20:bool Chip_GPIO_GetPinState(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+gpio_15xx.h:146:20:void Chip_GPIO_SetPinDIROutput(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+gpio_15xx.h:158:20:void Chip_GPIO_SetPinDIRInput(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+Lab_2_Ex1.cpp:47:2:DigitalIoPin::DigitalIoPin(int, int, bool, bool, bool)	32	static
+Lab_2_Ex1.cpp:78:10:DigitalIoPin::~DigitalIoPin()	16	static
+Lab_2_Ex1.cpp:78:10:virtual DigitalIoPin::~DigitalIoPin()	16	static
+Lab_2_Ex1.cpp:79:7:bool DigitalIoPin::read()	16	static
+Lab_2_Ex1.cpp:96:13:void prvSetupHardware()	8	static
+Lab_2_Ex1.cpp:106:13:void vLEDTask1(void*)	40	static
+Lab_2_Ex1.cpp:121:13:void vLEDTask3(void*)	40	static
+Lab_2_Ex1.cpp:139:13:void vLEDTask2(void*)	40	static
+Lab_2_Ex1.cpp:156:13:void vUARTTask(void*)	24	static
+Lab_2_Ex1.cpp:178:6:void vConfigureTimerForRunTimeStats()	8	static
+Lab_2_Ex1.cpp:191:5:int main()	16	static
