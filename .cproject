@@ -142,7 +142,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
-						<entry excluding="Lab_7_Ex3eiTehty.cpp|Lab_8_Ex1.cpp|Lab_8_Ex2.cpp|Lab_7_Ex1.cpp|Lab_7_Ex2.cpp|Lab_7_Ex3.cpp|Lab_6_Ex1_2.cpp|Lab_6_Ex3.cpp|ValloxComm.cpp|Lab_5_Ex2.cpp|Lab_5_Ex3.cpp|Lab_5_Ex1.cpp|Lab_3_Ex3.cpp|Lab_3_Ex1.cpp|Lab_3_Ex2.cpp|GcodeParser.cpp|Lab_2_Ex3.cpp|Lab_2_Ex2.cpp|Lab_2_Ex1.cpp|Lab_1_Ex3.cpp|Lab_1_Ex2.cpp|Lab_1_Ex1.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Lab_7_Ex2.cpp|Lab_5_Ex1.cpp|Lab_6_Ex1_2.cpp|Lab_5_Ex3.cpp|Lab_3_Ex2.cpp|Lab_8_Ex1.cpp|Lab_1_Ex1.cpp|Lab_1_Ex3.cpp|Lab_7_Ex3eiTehty.cpp|Lab_2_Ex2.cpp|Lab_7_Ex1.cpp|Lab_7_Ex3.cpp|Lab_5_Ex2.cpp|Lab_3_Ex1.cpp|Lab_3_Ex3.cpp|Lab_1_Ex2.cpp|Lab_8_Ex2.cpp|ValloxComm.cpp|Lab_6_Ex3.cpp|GcodeParser.cpp|Lab_2_Ex1.cpp|Lab_2_Ex3.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -282,7 +282,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
-						<entry excluding="Lab_7_Ex3eiTehty.cpp|Lab_8_Ex1.cpp|Lab_8_Ex2.cpp|Lab_7_Ex1.cpp|Lab_7_Ex2.cpp|Lab_7_Ex3.cpp|Lab_6_Ex1_2.cpp|Lab_6_Ex3.cpp|ValloxComm.cpp|Lab_5_Ex2.cpp|Lab_5_Ex3.cpp|Lab_5_Ex1.cpp|Lab_3_Ex3.cpp|Lab_3_Ex1.cpp|Lab_3_Ex2.cpp|GcodeParser.cpp|Lab_2_Ex3.cpp|Lab_2_Ex2.cpp|Lab_2_Ex1.cpp|Lab_1_Ex3.cpp|Lab_1_Ex2.cpp|Lab_1_Ex1.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Lab_7_Ex2.cpp|Lab_5_Ex1.cpp|Lab_6_Ex1_2.cpp|Lab_5_Ex3.cpp|Lab_3_Ex2.cpp|Lab_8_Ex1.cpp|Lab_1_Ex1.cpp|Lab_1_Ex3.cpp|Lab_7_Ex3eiTehty.cpp|Lab_2_Ex2.cpp|Lab_7_Ex1.cpp|Lab_7_Ex3.cpp|Lab_5_Ex2.cpp|Lab_3_Ex1.cpp|Lab_3_Ex3.cpp|Lab_1_Ex2.cpp|Lab_8_Ex2.cpp|ValloxComm.cpp|Lab_6_Ex3.cpp|GcodeParser.cpp|Lab_2_Ex1.cpp|Lab_2_Ex3.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
