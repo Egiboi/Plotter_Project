@@ -74,7 +74,5 @@ void irqSetup(int port, int pin, int channel){
 	break;
 	}
 
-
-
 }
 
