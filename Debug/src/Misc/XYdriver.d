@@ -1,6 +1,9 @@
-src/Communication/ITM_write.o src/Communication/ITM_write.d: \
- ../src/Communication/ITM_write.c \
- ../src/Communication/../Communication/ITM_write.h \
+src/Misc/XYdriver.o src/Misc/XYdriver.d: ../src/Misc/XYdriver.cpp \
+ C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/XYdriver.h \
+ C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/DigitalIoPin.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/FreeRTOS.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\inc/FreeRTOSConfig.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_board_nxp_lpcxpresso_1549\inc/board.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/chip.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/lpc_types.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/sys_config.h \
@@ -47,9 +50,31 @@ src/Communication/ITM_write.o src/Communication/ITM_write.d: \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/spi_15xx.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/i2cm_15xx.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/i2c_common_15xx.h \
- C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/i2cs_15xx.h
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/i2cs_15xx.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_board_nxp_lpcxpresso_1549\inc/board_api.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/lpc_types.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/projdefs.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/portable.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/deprecated_definitions.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\portable\GCC\ARM_CM3/portmacro.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/mpu_wrappers.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/semphr.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/queue.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/task.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/list.h \
+ C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/ITM_write.h \
+ C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/DigitalIoPin.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/task.h
 
-../src/Communication/../Communication/ITM_write.h:
+C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/XYdriver.h:
+
+C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/DigitalIoPin.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/FreeRTOS.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\inc/FreeRTOSConfig.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_board_nxp_lpcxpresso_1549\inc/board.h:
 
 C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/chip.h:
 
@@ -144,3 +169,31 @@ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/i2cm_1
 C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/i2c_common_15xx.h:
 
 C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/i2cs_15xx.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_board_nxp_lpcxpresso_1549\inc/board_api.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\inc/lpc_types.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/projdefs.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/portable.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/deprecated_definitions.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\portable\GCC\ARM_CM3/portmacro.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/mpu_wrappers.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/semphr.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/queue.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/task.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/list.h:
+
+C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/ITM_write.h:
+
+C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/DigitalIoPin.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/task.h:
