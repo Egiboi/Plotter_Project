@@ -113,8 +113,12 @@ void vConfigureTimerForRunTimeStats( void ) {
  * @brief	main routine for FreeRTOS blinky example
  * @return	Nothing, function should not exit
  */
+
+//EMILIN TESTIPUSH
+
 int main(void)
 {
+	int emilvar;
 	prvSetupHardware();
 	//mutex = xSemaphoreCreateMutex();
 
