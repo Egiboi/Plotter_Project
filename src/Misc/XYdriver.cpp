@@ -11,7 +11,7 @@ XYdriver::XYdriver(DigitalIoPin* dirX, DigitalIoPin* stepX, DigitalIoPin* lim1, 
 		DigitalIoPin* lim3, DigitalIoPin* lim4, DigitalIoPin* dirY, DigitalIoPin* stepY):
 		dirX(dirX),stepX(stepX),lim1(lim1),lim2(lim2),lim3(lim3),lim4(lim4),dirY(dirY),stepY(stepY){
 
-	dirXToOrigin = true;
+	dirXToOrigin = false;
 	dirYToOrigin = false;
 	sbRIT = xSemaphoreCreateBinary();
 
@@ -25,7 +25,11 @@ void XYdriver::calibration(){
 	int pps = 500, count = 0, rcount = 0, sum = 0;
 	dirX->write(0);
 	xState = true;
-	while(!lim1->read() && !lim2->read() && !lim3->read() && !lim4->read());
+	while(!lim1->read() && !lim2->read() && !lim3->read() && !lim4->read()){
+		Board_LED_Set(2,true);
+		vTaskDelay(500);
+		Board_LED_Set(2,false);
+	}
 	for(int i = 0; i < 2; i++){
 		dirX->write(!dirX->read());
 		while(lim2->read()){
@@ -42,6 +46,7 @@ void XYdriver::calibration(){
 		sum += count;
 		count = 0;
 	}
+	vTaskDelay(50);
 	totalStepsX = sum / rcount;
 	rcount = 0;
 	sum = 0;
@@ -64,21 +69,22 @@ void XYdriver::calibration(){
 		sum += count;
 		count = 0;
 	}
+	vTaskDelay(50);
 	totalStepsY = sum / rcount;
 	yState = false;
 
-	/*xState = true;
-	dirX->write(0);
+	xState = true;
+	dirX->write(1);
 	RIT_start(totalStepsX,1000000/(pps*2));
 	xState = false;
 
 	yState = true;
 	dirY->write(!dirY->read());
 	RIT_start(totalStepsY,1000000/(pps*2));
-	yState = false;*/
+	yState = false;
 
-	currentX = 0;
-	currentY = 0;
+	currentX = totalStepsX/2;
+	currentY = totalStepsY/2;
 
 	calibrate = false;
 }
@@ -89,25 +95,27 @@ void XYdriver::step(float x, float y){
 	int dx = x - currentX;
 	int dy = y - currentY;
 
-	if(dx > dy){
-		totalLeadSteps = dx;
-		totalFolSteps = dy;
+    dX = (dx < 0) ? dirXToOrigin : !dirXToOrigin;
+    dirX->write(dX);
+    dY = (dy < 0) ? dirYToOrigin : !dirYToOrigin;
+    dirY->write(dY);
+
+	if(abs(dx) > abs(dy)){
+		totalLeadSteps = abs(dx);
+		totalFolSteps = abs(dy);
 		lead = stepX;
 		follow = stepY;
 	}else{
-		totalLeadSteps = dy;
-		totalFolSteps = dx;
+		totalLeadSteps = abs(dy);
+		totalFolSteps = abs(dx);
 		lead = stepY;
 		follow = stepX;
 	}
 
 	p = 2 * totalFolSteps - totalLeadSteps;
 
-	currentLeadSteps = 0;
-	currentFolSteps = 0;
-
 	while(currentLeadSteps < totalLeadSteps){
-		RIT_start(2,pps);
+		RIT_start(2,1000000/(pps*2));
 	}
 	if (abs(dx) > abs(dy)) {
 		currentX = (dX == dirXToOrigin) ? (currentX - currentLeadSteps) : (currentX + currentLeadSteps);
@@ -121,8 +129,7 @@ bool XYdriver::IRQHandlerCali(void)
 {
 	// This used to check if a context switch is required
 	portBASE_TYPE xHigherPriorityWoken = pdFALSE;
-	// Tell timer that we have processed the interrupt.
-	// Timer then removes the IRQ until next match occurs
+
 	Chip_RIT_ClearIntStatus(LPC_RITIMER); // clear IRQ flag
 
 	if((RIT_count > 0) && ((RIT_count % 2) == 0) && xState == true) {
@@ -157,11 +164,11 @@ bool XYdriver::IRQHandler(void){
 	bool minY = lim3->read() && (dY == dirYToOrigin);
 	bool maxY = lim4->read() && (dY == !dirYToOrigin);
 
-	/*if (minX || maxX || minY || maxY) {
+	if (minX || maxX || minY || maxY) {
         // motors hit limit switches, stop
         Chip_RIT_Disable(LPC_RITIMER);
         xSemaphoreGiveFromISR(sbRIT, &xHigherPriorityWoken);
-    }*/
+    }
 
 	if ((RIT_count > 0) && ((RIT_count % 2) == 0)) {
 		RIT_count--;
