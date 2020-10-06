@@ -58,7 +58,14 @@ src/Main.o src/Main.d: ../src/Main.cpp \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/mpu_wrappers.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/heap_lock_monitor.h
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/init.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/XYdriver.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/DigitalIoPin.h \
+ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/semphr.h \
+ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/queue.h \
+ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/heap_lock_monitor.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\inc/board.h:
 
@@ -178,4 +185,18 @@ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h:
 
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/init.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/XYdriver.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/DigitalIoPin.h:
+
+C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/semphr.h:
+
+C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/queue.h:
+
+C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h:
+
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/heap_lock_monitor.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h:

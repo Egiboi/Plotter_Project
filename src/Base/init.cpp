@@ -34,7 +34,7 @@ XYdriver* driverSetup(void){
 }
 
 
-//IRQ setup, call ENABLE CLEAR before use
+//IRQ setup, call ENABLE & CLEAR before use
 void irqSetup(int port, int pin, int channel){
 	/* Set pin back to GPIO (on some boards may have been changed to something
 		   else by Board_Init()) */

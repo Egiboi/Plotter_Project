@@ -24,8 +24,8 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
-#include "heap_lock_monitor.h"
-//#include "semaphore.h"
+#include "init.h"
+
 
 /*****************************************************************************
  * Private types/enumerations/variables
@@ -39,15 +39,7 @@
  * Private functions
  ****************************************************************************/
 
-/* Sets up system hardware */
-static void prvSetupHardware(void)
-{
-	SystemCoreClockUpdate();
-	Board_Init();
-	heap_monitor_setup();
-	/* Initial LED0 state is off */
-	Board_LED_Set(0, false);
-}
+XYdriver *driver;
 
 /* LED1 toggle thread */
 static void vLEDTask1(void *pvParameters) {
@@ -119,6 +111,8 @@ void vConfigureTimerForRunTimeStats( void ) {
 int main(void)
 {
 	prvSetupHardware();
+	driver= driverSetup();
+
 	//mutex = xSemaphoreCreateMutex();
 
 	/* LED1 toggle thread */
