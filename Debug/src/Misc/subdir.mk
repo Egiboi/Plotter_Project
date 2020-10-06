@@ -4,17 +4,23 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/Misc/Parser.cpp 
+../src/Misc/DigitalIoPin.cpp \
+../src/Misc/Parser.cpp \
+../src/Misc/XYdriver.cpp 
 
 C_SRCS += \
 ../src/Misc/heap_lock_monitor.c 
 
 OBJS += \
+./src/Misc/DigitalIoPin.o \
 ./src/Misc/Parser.o \
+./src/Misc/XYdriver.o \
 ./src/Misc/heap_lock_monitor.o 
 
 CPP_DEPS += \
-./src/Misc/Parser.d 
+./src/Misc/DigitalIoPin.d \
+./src/Misc/Parser.d \
+./src/Misc/XYdriver.d 
 
 C_DEPS += \
 ./src/Misc/heap_lock_monitor.d 

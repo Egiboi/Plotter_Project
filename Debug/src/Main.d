@@ -58,7 +58,7 @@ src/Main.o src/Main.d: ../src/Main.cpp \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/mpu_wrappers.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h \
- ../src/Misc/heap_lock_monitor.h
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/heap_lock_monitor.h
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\inc/board.h:
 
@@ -178,4 +178,4 @@ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h:
 
-../src/Misc/heap_lock_monitor.h:
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/heap_lock_monitor.h:

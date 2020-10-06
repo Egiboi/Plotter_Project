@@ -1,6 +1,6 @@
 src/Communication/LpcUart.o src/Communication/LpcUart.d: \
  ../src/Communication/LpcUart.cpp \
- ../src/Communication/../Communication/LpcUart.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_chip_15xx\inc/chip.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_chip_15xx\inc/lpc_types.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_chip_15xx\inc/sys_config.h \
@@ -62,9 +62,9 @@ src/Communication/LpcUart.o src/Communication/LpcUart.d: \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/queue.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h \
- ../src/Communication/../Communication/Fmutex.h
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h
 
-../src/Communication/../Communication/LpcUart.h:
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h:
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_chip_15xx\inc/chip.h:
 
@@ -188,4 +188,4 @@ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h:
 
-../src/Communication/../Communication/Fmutex.h:
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h:

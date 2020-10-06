@@ -5,7 +5,7 @@
  *      Author: keijo
  */
 
-#include "../Communication/LpcUart.h"
+#include "LpcUart.h"
 
 #include <cstring>
 #include <mutex>

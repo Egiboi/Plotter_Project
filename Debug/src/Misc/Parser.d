@@ -1,4 +1,4 @@
 src/Misc/Parser.o src/Misc/Parser.d: ../src/Misc/Parser.cpp \
- ../src/Misc/Parser.h
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Parser.h
 
-../src/Misc/Parser.h:
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Parser.h:

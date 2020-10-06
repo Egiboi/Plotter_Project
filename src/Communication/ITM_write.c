@@ -5,7 +5,7 @@
  *      Author: krl
  */
 
-#include "../Communication/ITM_write.h"
+#include "ITM_write.h"
 
 #include <stdint.h>
 #include <chip.h>

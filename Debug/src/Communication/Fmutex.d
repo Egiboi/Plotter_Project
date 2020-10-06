@@ -1,5 +1,6 @@
 src/Communication/Fmutex.o src/Communication/Fmutex.d: \
- ../src/Communication/Fmutex.cpp ../src/Communication/Fmutex.h \
+ ../src/Communication/Fmutex.cpp \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/FreeRTOS.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\inc/FreeRTOSConfig.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\inc/board.h \
@@ -62,7 +63,7 @@ src/Communication/Fmutex.o src/Communication/Fmutex.d: \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h
 
-../src/Communication/Fmutex.h:
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h:
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/FreeRTOS.h:
 

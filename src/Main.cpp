@@ -24,7 +24,7 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
-#include "Misc/heap_lock_monitor.h"
+#include "heap_lock_monitor.h"
 //#include "semaphore.h"
 
 /*****************************************************************************
@@ -118,7 +118,6 @@ void vConfigureTimerForRunTimeStats( void ) {
 
 int main(void)
 {
-	int emilvar;
 	prvSetupHardware();
 	//mutex = xSemaphoreCreateMutex();
 

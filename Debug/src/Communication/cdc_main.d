@@ -79,7 +79,7 @@ src/Communication/cdc_main.o src/Communication/cdc_main.d: \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/semphr.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/queue.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/user_vcom.h \
- ../src/Communication/ITM_write.h
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\inc/board.h:
 
@@ -239,4 +239,4 @@ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/
 
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/user_vcom.h:
 
-../src/Communication/ITM_write.h:
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h:
