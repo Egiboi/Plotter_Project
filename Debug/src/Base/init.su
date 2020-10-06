@@ -1,0 +1,12 @@
+core_cm3.h:1405:22:void NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+sysctl_15xx.h:185:20:void Chip_SYSCTL_PeriphReset(CHIP_SYSCTL_PERIPH_RESET_T)	16	static
+iocon_15xx.h:95:20:void Chip_IOCON_PinMuxSet(LPC_IOCON_T*, uint8_t, uint8_t, uint32_t)	24	static
+gpio_15xx.h:158:20:void Chip_GPIO_SetPinDIRInput(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+pinint_15xx.h:79:20:void Chip_PININT_Init(LPC_PIN_INT_T*)	16	static
+pinint_15xx.h:101:20:void Chip_PININT_SetPinModeEdge(LPC_PIN_INT_T*, uint32_t)	16	static
+pinint_15xx.h:171:20:void Chip_PININT_EnableIntLow(LPC_PIN_INT_T*, uint32_t)	16	static
+pinint_15xx.h:245:20:void Chip_PININT_ClearIntStatus(LPC_PIN_INT_T*, uint32_t)	16	static
+inmux_15xx.h:221:20:void Chip_INMUX_PinIntSel(uint8_t, uint8_t, uint8_t)	16	static
+init.cpp:10:6:void prvSetupHardware()	8	static
+init.cpp:22:11:XYdriver* driverSetup()	72	static
+init.cpp:38:6:void irqSetup(int, int, int)	24	static

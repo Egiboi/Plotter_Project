@@ -5,7 +5,7 @@ C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpress
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
                               ./src/Base/sysinit.o (Board_SystemInit)
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
-                              ./src/Main.o (SystemCoreClockUpdate)
+                              ./src/Base/init.o (SystemCoreClockUpdate)
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
                               ./src/Communication/LpcUart.o (Chip_Clock_GetMainClockRate)
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
@@ -21,7 +21,7 @@ C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\lib
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
                               ./src/Communication/ITM_write.o (Chip_SWM_MovablePinAssign)
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
-                              C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o) (Chip_SYSCTL_AssertPeriphReset)
+                              ./src/Base/init.o (Chip_SYSCTL_AssertPeriphReset)
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
                               C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o) (Chip_SetupXtalClocking)
 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
@@ -2197,6 +2197,219 @@ Discarded input sections
  .comment       0x00000000       0x7a ./src/Base/crp.o
  .ARM.attributes
                 0x00000000       0x33 ./src/Base/crp.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .group         0x00000000        0xc ./src/Base/init.o
+ .text          0x00000000        0x0 ./src/Base/init.o
+ .data          0x00000000        0x0 ./src/Base/init.o
+ .bss           0x00000000        0x0 ./src/Base/init.o
+ .text.NVIC_SetPriority
+                0x00000000       0x54 ./src/Base/init.o
+ .text.Chip_SYSCTL_PeriphReset
+                0x00000000       0x22 ./src/Base/init.o
+ .text.Chip_IOCON_PinMuxSet
+                0x00000000       0x2c ./src/Base/init.o
+ .text.Chip_GPIO_SetPinDIRInput
+                0x00000000       0x3e ./src/Base/init.o
+ .text.Chip_PININT_Init
+                0x00000000       0x1c ./src/Base/init.o
+ .text.Chip_PININT_SetPinModeEdge
+                0x00000000       0x22 ./src/Base/init.o
+ .text.Chip_PININT_EnableIntLow
+                0x00000000       0x1a ./src/Base/init.o
+ .text.Chip_PININT_ClearIntStatus
+                0x00000000       0x1a ./src/Base/init.o
+ .text.Chip_INMUX_PinIntSel
+                0x00000000       0x34 ./src/Base/init.o
+ .text._Z16prvSetupHardwarev
+                0x00000000       0x2c ./src/Base/init.o
+ .text._Z11driverSetupv
+                0x00000000      0x11a ./src/Base/init.o
+ .text._Z8irqSetupiii
+                0x00000000       0xd0 ./src/Base/init.o
+ .debug_info    0x00000000     0x1706 ./src/Base/init.o
+ .debug_abbrev  0x00000000      0x389 ./src/Base/init.o
+ .debug_aranges
+                0x00000000       0x78 ./src/Base/init.o
+ .debug_ranges  0x00000000       0x68 ./src/Base/init.o
+ .debug_macro   0x00000000      0x4b0 ./src/Base/init.o
+ .debug_macro   0x00000000      0xb8c ./src/Base/init.o
+ .debug_macro   0x00000000       0x1c ./src/Base/init.o
+ .debug_macro   0x00000000       0x22 ./src/Base/init.o
+ .debug_macro   0x00000000       0x8e ./src/Base/init.o
+ .debug_macro   0x00000000       0x51 ./src/Base/init.o
+ .debug_macro   0x00000000       0xef ./src/Base/init.o
+ .debug_macro   0x00000000       0x6a ./src/Base/init.o
+ .debug_macro   0x00000000      0x1df ./src/Base/init.o
+ .debug_macro   0x00000000       0x16 ./src/Base/init.o
+ .debug_macro   0x00000000       0x7b ./src/Base/init.o
+ .debug_macro   0x00000000       0x10 ./src/Base/init.o
+ .debug_macro   0x00000000       0x2d ./src/Base/init.o
+ .debug_macro   0x00000000       0x3a ./src/Base/init.o
+ .debug_macro   0x00000000       0x2d ./src/Base/init.o
+ .debug_macro   0x00000000      0xa7d ./src/Base/init.o
+ .debug_macro   0x00000000      0x1b4 ./src/Base/init.o
+ .debug_macro   0x00000000       0xca ./src/Base/init.o
+ .debug_macro   0x00000000       0x18 ./src/Base/init.o
+ .debug_macro   0x00000000       0xb2 ./src/Base/init.o
+ .debug_macro   0x00000000       0x70 ./src/Base/init.o
+ .debug_macro   0x00000000       0x46 ./src/Base/init.o
+ .debug_macro   0x00000000       0xd0 ./src/Base/init.o
+ .debug_macro   0x00000000       0x40 ./src/Base/init.o
+ .debug_macro   0x00000000      0x233 ./src/Base/init.o
+ .debug_macro   0x00000000       0x16 ./src/Base/init.o
+ .debug_macro   0x00000000       0x88 ./src/Base/init.o
+ .debug_macro   0x00000000       0x34 ./src/Base/init.o
+ .debug_macro   0x00000000       0x6a ./src/Base/init.o
+ .debug_macro   0x00000000       0x40 ./src/Base/init.o
+ .debug_macro   0x00000000       0x1c ./src/Base/init.o
+ .debug_macro   0x00000000       0x16 ./src/Base/init.o
+ .debug_macro   0x00000000      0x10c ./src/Base/init.o
+ .debug_macro   0x00000000      0x2a9 ./src/Base/init.o
+ .debug_macro   0x00000000       0x76 ./src/Base/init.o
+ .debug_macro   0x00000000       0x22 ./src/Base/init.o
+ .debug_macro   0x00000000      0x152 ./src/Base/init.o
+ .debug_macro   0x00000000       0x82 ./src/Base/init.o
+ .debug_macro   0x00000000       0xe6 ./src/Base/init.o
+ .debug_macro   0x00000000       0x3a ./src/Base/init.o
+ .debug_macro   0x00000000       0x34 ./src/Base/init.o
+ .debug_macro   0x00000000       0x10 ./src/Base/init.o
+ .debug_macro   0x00000000       0x76 ./src/Base/init.o
+ .debug_macro   0x00000000       0x58 ./src/Base/init.o
+ .debug_macro   0x00000000      0x2ca ./src/Base/init.o
+ .debug_macro   0x00000000      0x22b ./src/Base/init.o
+ .debug_macro   0x00000000       0x2e ./src/Base/init.o
+ .debug_macro   0x00000000       0x34 ./src/Base/init.o
+ .debug_macro   0x00000000       0x5e ./src/Base/init.o
+ .debug_macro   0x00000000       0x18 ./src/Base/init.o
+ .debug_macro   0x00000000       0x35 ./src/Base/init.o
+ .debug_macro   0x00000000       0x34 ./src/Base/init.o
+ .debug_macro   0x00000000       0x16 ./src/Base/init.o
+ .debug_macro   0x00000000       0x97 ./src/Base/init.o
+ .debug_macro   0x00000000      0x35c ./src/Base/init.o
+ .debug_macro   0x00000000      0x104 ./src/Base/init.o
+ .debug_macro   0x00000000       0x10 ./src/Base/init.o
+ .debug_macro   0x00000000       0x58 ./src/Base/init.o
+ .debug_macro   0x00000000       0x1f ./src/Base/init.o
+ .debug_macro   0x00000000       0x43 ./src/Base/init.o
+ .debug_macro   0x00000000       0x20 ./src/Base/init.o
+ .debug_macro   0x00000000      0x18e ./src/Base/init.o
+ .debug_macro   0x00000000       0x10 ./src/Base/init.o
+ .debug_macro   0x00000000       0x1c ./src/Base/init.o
+ .debug_macro   0x00000000       0x52 ./src/Base/init.o
+ .debug_macro   0x00000000       0x40 ./src/Base/init.o
+ .debug_macro   0x00000000       0x10 ./src/Base/init.o
+ .debug_macro   0x00000000       0x40 ./src/Base/init.o
+ .debug_macro   0x00000000       0xd7 ./src/Base/init.o
+ .debug_macro   0x00000000       0x1c ./src/Base/init.o
+ .debug_macro   0x00000000       0x3d ./src/Base/init.o
+ .debug_macro   0x00000000       0x16 ./src/Base/init.o
+ .debug_macro   0x00000000      0x137 ./src/Base/init.o
+ .debug_macro   0x00000000       0x20 ./src/Base/init.o
+ .debug_macro   0x00000000      0x13e ./src/Base/init.o
+ .debug_macro   0x00000000      0x15a ./src/Base/init.o
+ .debug_macro   0x00000000       0xdd ./src/Base/init.o
+ .debug_macro   0x00000000       0x1c ./src/Base/init.o
+ .debug_macro   0x00000000       0x26 ./src/Base/init.o
+ .debug_macro   0x00000000       0x16 ./src/Base/init.o
+ .debug_macro   0x00000000       0x35 ./src/Base/init.o
+ .debug_macro   0x00000000      0x402 ./src/Base/init.o
+ .debug_macro   0x00000000       0xb5 ./src/Base/init.o
+ .debug_macro   0x00000000       0xaa ./src/Base/init.o
+ .debug_macro   0x00000000       0x80 ./src/Base/init.o
+ .debug_macro   0x00000000       0x7e ./src/Base/init.o
+ .debug_macro   0x00000000       0x10 ./src/Base/init.o
+ .debug_macro   0x00000000       0xa0 ./src/Base/init.o
+ .debug_line    0x00000000      0xb74 ./src/Base/init.o
+ .debug_str     0x00000000    0x1903f ./src/Base/init.o
+ .comment       0x00000000       0x7a ./src/Base/init.o
+ .debug_frame   0x00000000      0x1d8 ./src/Base/init.o
+ .ARM.attributes
+                0x00000000       0x2d ./src/Base/init.o
  .group         0x00000000        0xc ./src/Base/sysinit.o
  .group         0x00000000        0xc ./src/Base/sysinit.o
  .group         0x00000000        0xc ./src/Base/sysinit.o
@@ -2472,7 +2685,9 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./src/Main.o
  .debug_macro   0x00000000       0x34 ./src/Main.o
  .debug_macro   0x00000000       0x16 ./src/Main.o
+ .debug_macro   0x00000000       0x97 ./src/Main.o
  .debug_macro   0x00000000      0x35c ./src/Main.o
+ .debug_macro   0x00000000      0x104 ./src/Main.o
  .debug_macro   0x00000000       0x10 ./src/Main.o
  .debug_macro   0x00000000       0x58 ./src/Main.o
  .debug_macro   0x00000000       0x1f ./src/Main.o
@@ -10168,6 +10383,7 @@ LOAD ./src/Communication/cdc_vcom.o
 LOAD ./src/Base/cr_cpp_config.o
 LOAD ./src/Base/cr_startup_lpc15xx.o
 LOAD ./src/Base/crp.o
+LOAD ./src/Base/init.o
 LOAD ./src/Base/sysinit.o
 LOAD ./src/Main.o
 LOAD C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a
@@ -11489,7 +11705,7 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_ranges  0x00000c08       0x10 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(lseek.o)
  .debug_ranges  0x00000c18       0x10 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_macro    0x00000000     0x9725
+.debug_macro    0x00000000     0x958a
  .debug_macro   0x00000000      0x3ff ./src/Misc/heap_lock_monitor.o
  .debug_macro   0x000003ff      0xaba ./src/Misc/heap_lock_monitor.o
  .debug_macro   0x00000eb9      0x174 ./src/Misc/heap_lock_monitor.o
@@ -11525,38 +11741,36 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_macro   0x000034fe       0x23 ./src/Base/cr_startup_lpc15xx.o
  .debug_macro   0x00003521      0x376 ./src/Base/sysinit.o
  .debug_macro   0x00003897      0x46e ./src/Main.o
- .debug_macro   0x00003d05       0x97 ./src/Main.o
- .debug_macro   0x00003d9c      0x104 ./src/Main.o
- .debug_macro   0x00003ea0       0x82 ./src/Main.o
- .debug_macro   0x00003f22      0x3f3 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00004315      0xaae C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00004dc3      0x16f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00004f32       0x12 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x00004f44      0x414 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_macro   0x00005358      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x000055b8      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x00005818      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x00005a78      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x00005cd8      0x151 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00005e29       0x10 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x00005e39      0x26c C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x000060a5      0x278 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x0000631d      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x0000657d      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x000067dd      0x500 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x00006cdd      0xab4 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x00007791      0x10e C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x0000789f       0x8d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x0000792c      0x56d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x00007e99       0x91 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x00007f2a       0x10 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x00007f3a       0x16 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x00007f50      0x4cb C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
- .debug_macro   0x0000841b       0x97 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
- .debug_macro   0x000084b2      0x491 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
- .debug_macro   0x00008943      0x4ff C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
- .debug_macro   0x00008e42      0x46d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
- .debug_macro   0x000092af      0x476 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(list.o)
+ .debug_macro   0x00003d05       0x82 ./src/Main.o
+ .debug_macro   0x00003d87      0x3f3 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x0000417a      0xaae C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x00004c28      0x16f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x00004d97       0x12 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_macro   0x00004da9      0x414 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+ .debug_macro   0x000051bd      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_macro   0x0000541d      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_macro   0x0000567d      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_macro   0x000058dd      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_macro   0x00005b3d      0x151 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_macro   0x00005c8e       0x10 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_macro   0x00005c9e      0x26c C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_macro   0x00005f0a      0x278 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_macro   0x00006182      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_macro   0x000063e2      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_macro   0x00006642      0x500 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
+ .debug_macro   0x00006b42      0xab4 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
+ .debug_macro   0x000075f6      0x10e C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
+ .debug_macro   0x00007704       0x8d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
+ .debug_macro   0x00007791      0x56d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
+ .debug_macro   0x00007cfe       0x91 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
+ .debug_macro   0x00007d8f       0x10 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
+ .debug_macro   0x00007d9f       0x16 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
+ .debug_macro   0x00007db5      0x4cb C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
+ .debug_macro   0x00008280       0x97 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
+ .debug_macro   0x00008317      0x491 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
+ .debug_macro   0x000087a8      0x4ff C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
+ .debug_macro   0x00008ca7      0x46d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
+ .debug_macro   0x00009114      0x476 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(list.o)
 
 .debug_line     0x00000000    0x10b7d
  .debug_line    0x00000000      0x97f ./src/Misc/heap_lock_monitor.o
@@ -11974,9 +12188,11 @@ BOD_IRQHandler                                    ./src/Base/cr_startup_lpc15xx.
 Board_Debug_Init                                  C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
 Board_Init                                        C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
                                                   ./src/Main.o
+                                                  ./src/Base/init.o
 Board_Joystick_Init                               C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
 Board_LED_Set                                     C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
                                                   ./src/Main.o
+                                                  ./src/Base/init.o
                                                   ./src/Misc/XYdriver.o
 Board_LED_Test                                    C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
 Board_LED_Toggle                                  C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
@@ -12002,6 +12218,7 @@ Chip_Clock_EnablePeriphClock                      C:\Users\danie\Documents\Koulu
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+                                                  ./src/Base/init.o
 Chip_Clock_GetADCASYNCRate                        C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
 Chip_Clock_GetMainClockRate                       C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
@@ -12074,6 +12291,7 @@ Chip_SYSCTL_AssertPeriphReset                     C:\Users\danie\Documents\Koulu
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+                                                  ./src/Base/init.o
 Chip_SYSCTL_DeassertPeriphReset                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sct_15xx.o)
@@ -12081,6 +12299,7 @@ Chip_SYSCTL_DeassertPeriphReset                   C:\Users\danie\Documents\Koulu
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+                                                  ./src/Base/init.o
 Chip_SYSCTL_GetCompFreqMeas                       C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
 Chip_SYSCTL_PowerDown                             C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
@@ -12122,6 +12341,7 @@ DMA_IRQHandler                                    ./src/Base/cr_startup_lpc15xx.
 DebugMon_Handler                                  ./src/Base/cr_startup_lpc15xx.o
 DigitalIoPin::DigitalIoPin(int, int, DigitalIoPin::pinMode, bool) ./src/Misc/DigitalIoPin.o
 DigitalIoPin::DigitalIoPin(int, int, DigitalIoPin::pinMode, bool) ./src/Misc/DigitalIoPin.o
+                                                  ./src/Base/init.o
 DigitalIoPin::read()                              ./src/Misc/DigitalIoPin.o
 DigitalIoPin::write(bool)                         ./src/Misc/DigitalIoPin.o
                                                   ./src/Misc/XYdriver.o
@@ -12131,16 +12351,16 @@ DigitalIoPin::~DigitalIoPin()                     ./src/Misc/DigitalIoPin.o
 EEPROM_IRQHandler                                 ./src/Base/cr_startup_lpc15xx.o
 FMC_IRQHandler                                    ./src/Base/cr_startup_lpc15xx.o
 Fmutex::Fmutex()                                  ./src/Communication/Fmutex.o
-Fmutex::Fmutex()                                  ./src/Communication/Fmutex.o
                                                   ./src/Communication/LpcUart.o
+Fmutex::Fmutex()                                  ./src/Communication/Fmutex.o
 Fmutex::lock()                                    ./src/Communication/Fmutex.o
                                                   ./src/Communication/LpcUart.o
 Fmutex::unlock()                                  ./src/Communication/Fmutex.o
                                                   ./src/Communication/LpcUart.o
 Fmutex::~Fmutex()                                 ./src/Communication/Fmutex.o
+Fmutex::~Fmutex()                                 ./src/Communication/Fmutex.o
+Fmutex::~Fmutex()                                 ./src/Communication/Fmutex.o
                                                   ./src/Communication/LpcUart.o
-Fmutex::~Fmutex()                                 ./src/Communication/Fmutex.o
-Fmutex::~Fmutex()                                 ./src/Communication/Fmutex.o
 FreeRTOSDebugConfig                               C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
                                                   ./src/Misc/heap_lock_monitor.o
 FreeRTOSDelay                                     C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
@@ -12155,6 +12375,7 @@ GcodeParser::~GcodeParser()                       ./src/Misc/Parser.o
 HardFault_Handler                                 ./src/Base/cr_startup_lpc15xx.o
 I2C0_IRQHandler                                   ./src/Base/cr_startup_lpc15xx.o
 ITM_init                                          ./src/Communication/ITM_write.o
+                                                  ./src/Base/init.o
 ITM_write                                         ./src/Communication/ITM_write.o
                                                   ./src/Communication/cdc_main.o
 IntDefaultHandler                                 ./src/Base/cr_startup_lpc15xx.o
@@ -12226,6 +12447,7 @@ SystemCoreClock                                   C:\Users\danie\Documents\Koulu
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
 SystemCoreClockUpdate                             C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
                                                   ./src/Main.o
+                                                  ./src/Base/init.o
 SystemInit                                        ./src/Base/sysinit.o
                                                   ./src/Base/cr_startup_lpc15xx.o
 UART0_IRQHandler                                  ./src/Communication/LpcUart.o
@@ -12248,6 +12470,7 @@ XYdriver::IRQHandler()                            ./src/Misc/XYdriver.o
 XYdriver::IRQHandlerCali()                        ./src/Misc/XYdriver.o
 XYdriver::RIT_start(int, int)                     ./src/Misc/XYdriver.o
 XYdriver::XYdriver(DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*) ./src/Misc/XYdriver.o
+                                                  ./src/Base/init.o
 XYdriver::XYdriver(DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*) ./src/Misc/XYdriver.o
 XYdriver::calibration()                           ./src/Misc/XYdriver.o
 XYdriver::step(float, float)                      ./src/Misc/XYdriver.o
@@ -13095,6 +13318,7 @@ char* std::string::_S_construct<char const*>(char const*, char const*, std::allo
 char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 cleanup_glue                                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
 data_init(unsigned int, unsigned int, unsigned int) ./src/Base/cr_startup_lpc15xx.o
+driverSetup()                                     ./src/Base/init.o
 eTaskGetState                                     C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
 errno                                             c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(open.o)
@@ -13139,7 +13363,9 @@ heapPercentageUsed_                               ./src/Misc/heap_lock_monitor.o
 heapTotalSize_                                    ./src/Misc/heap_lock_monitor.o
 heap_monitor_setup                                ./src/Misc/heap_lock_monitor.o
                                                   ./src/Main.o
+                                                  ./src/Base/init.o
 heap_monitor_update                               ./src/Misc/heap_lock_monitor.o
+irqSetup(int, int, int)                           ./src/Base/init.o
 iswspace                                          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-iswspace.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-svfiscanf.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-svfscanf.o)
@@ -13231,12 +13457,14 @@ operator delete[](void*)                          ./src/Base/cr_cpp_config.o
 operator new(unsigned int)                        ./src/Base/cr_cpp_config.o
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
+                                                  ./src/Base/init.o
 operator new[](unsigned int)                      ./src/Base/cr_cpp_config.o
 pcQueueGetName                                    C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
 pcTaskGetName                                     C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
 pcTimerGetName                                    C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
 printf                                            c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-printf.o)
                                                   ./src/Main.o
+prvSetupHardware()                                ./src/Base/init.o
 pvPortMalloc                                      C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
                                                   C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
@@ -13469,13 +13697,13 @@ std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >:
                                                   ./src/Misc/Parser.o
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::swap(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
-                                                  ./src/Misc/Parser.o
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
+                                                  ./src/Misc/Parser.o
 std::__sso_string::__sso_string()                 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
 std::__sso_string::__sso_string()                 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
+std::__sso_string::__sso_string(char const*, unsigned int) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
 std::__sso_string::__sso_string(char const*, unsigned int) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-std::__sso_string::__sso_string(char const*, unsigned int) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
 std::__sso_string::__sso_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
 std::__sso_string::__sso_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
 std::__sso_string::__sso_string(std::__sso_string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(sso_string.o)
@@ -13513,24 +13741,24 @@ std::__throw_runtime_error(char const*)           c:/nxp/mcuxpressoide_11.2.0_41
 std::__throw_underflow_error(char const*)         c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::bad_alloc::what() const                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_alloc.o)
 std::bad_alloc::~bad_alloc()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_alloc.o)
-std::bad_alloc::~bad_alloc()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_alloc.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
+std::bad_alloc::~bad_alloc()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_alloc.o)
 std::bad_alloc::~bad_alloc()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_alloc.o)
 std::bad_cast::what() const                       c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_cast.o)
 std::bad_cast::~bad_cast()                        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_cast.o)
+std::bad_cast::~bad_cast()                        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_cast.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::bad_cast::~bad_cast()                        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_cast.o)
-std::bad_cast::~bad_cast()                        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_cast.o)
 std::bad_exception::what() const                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
+std::bad_exception::~bad_exception()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 std::bad_exception::~bad_exception()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_call.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::bad_exception::~bad_exception()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
-std::bad_exception::~bad_exception()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 std::bad_typeid::what() const                     c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
 std::bad_typeid::~bad_typeid()                    c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::bad_typeid::~bad_typeid()                    c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
+                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::bad_typeid::~bad_typeid()                    c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
@@ -13538,11 +13766,11 @@ std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::oper
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
+                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::initializer_list<char>, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
@@ -13574,8 +13802,8 @@ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_st
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::domain_error::domain_error(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-std::domain_error::domain_error(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
+std::domain_error::domain_error(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::domain_error::domain_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::domain_error::domain_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::domain_error::~domain_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
@@ -13586,43 +13814,43 @@ std::domain_error::~domain_error()                c:/nxp/mcuxpressoide_11.2.0_41
 std::exception::what() const                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
+std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_cast.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_alloc.o)
-std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 std::get_terminate()                              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_throw.o)
 std::get_unexpected()                             c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_throw.o)
 std::invalid_argument::invalid_argument(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::invalid_argument::invalid_argument(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
+                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::invalid_argument::invalid_argument(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::invalid_argument::invalid_argument(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
+std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::length_error::length_error(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::length_error::length_error(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::length_error::length_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::length_error::length_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::length_error::~length_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::length_error::~length_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::length_error::~length_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
+std::length_error::~length_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
+std::length_error::~length_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::lock_guard<Fmutex>::lock_guard(Fmutex&)      ./src/Communication/LpcUart.o
 std::lock_guard<Fmutex>::lock_guard(Fmutex&)      ./src/Communication/LpcUart.o
 std::lock_guard<Fmutex>::~lock_guard()            ./src/Communication/LpcUart.o
 std::lock_guard<Fmutex>::~lock_guard()            ./src/Communication/LpcUart.o
-std::logic_error::logic_error(char const*)        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::logic_error::logic_error(char const*)        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
+std::logic_error::logic_error(char const*)        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::logic_error::logic_error(std::logic_error const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::logic_error::logic_error(std::logic_error const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::logic_error::logic_error(std::logic_error&&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
@@ -13638,8 +13866,8 @@ std::logic_error::~logic_error()                  c:/nxp/mcuxpressoide_11.2.0_41
 std::logic_error::~logic_error()                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::logic_error::~logic_error()                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::out_of_range::out_of_range(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
+                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::out_of_range::out_of_range(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::out_of_range::out_of_range(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::out_of_range::out_of_range(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::out_of_range::~out_of_range()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
@@ -13653,10 +13881,10 @@ std::overflow_error::overflow_error(char const*)  c:/nxp/mcuxpressoide_11.2.0_41
 std::overflow_error::overflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::overflow_error::overflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::overflow_error::~overflow_error()            c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
+std::overflow_error::~overflow_error()            c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
+std::overflow_error::~overflow_error()            c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-std::overflow_error::~overflow_error()            c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::overflow_error::~overflow_error()            c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::random_device::_M_init(std::string const&)   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::random_device::_M_init_pretr1(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::range_error::range_error(char const*)        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
@@ -13682,9 +13910,9 @@ std::runtime_error::runtime_error(std::string const&) c:/nxp/mcuxpressoide_11.2.
 std::runtime_error::runtime_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::runtime_error::what() const                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::runtime_error::~runtime_error()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::runtime_error::~runtime_error()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
+std::runtime_error::~runtime_error()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::runtime_error::~runtime_error()              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::set_terminate(void (*)())                    c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
 std::set_unexpected(void (*)())                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
@@ -13875,20 +14103,20 @@ std::type_info::operator==(std::type_info const&) const c:/nxp/mcuxpressoide_11.
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(si_class_type_info.o)
 std::type_info::~type_info()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(tinfo.o)
 std::type_info::~type_info()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(tinfo.o)
-std::type_info::~type_info()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(tinfo.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(class_type_info.o)
+std::type_info::~type_info()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(tinfo.o)
 std::uncaught_exception()                         c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_catch.o)
 std::uncaught_exceptions()                        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_catch.o)
 std::underflow_error::underflow_error(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-std::underflow_error::underflow_error(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
+std::underflow_error::underflow_error(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::underflow_error::underflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::underflow_error::underflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
+std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
+std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::unexpected()                                 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_call.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_personality.o)

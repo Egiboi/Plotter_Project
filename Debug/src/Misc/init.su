@@ -1,0 +1,2 @@
+init.cpp:10:6:void prvSetupHardware()	8	static
+init.cpp:21:11:XYdriver* driverSetup()	72	static

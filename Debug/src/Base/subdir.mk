@@ -5,7 +5,8 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/Base/cr_cpp_config.cpp \
-../src/Base/cr_startup_lpc15xx.cpp 
+../src/Base/cr_startup_lpc15xx.cpp \
+../src/Base/init.cpp 
 
 C_SRCS += \
 ../src/Base/crp.c \
@@ -15,11 +16,13 @@ OBJS += \
 ./src/Base/cr_cpp_config.o \
 ./src/Base/cr_startup_lpc15xx.o \
 ./src/Base/crp.o \
+./src/Base/init.o \
 ./src/Base/sysinit.o 
 
 CPP_DEPS += \
 ./src/Base/cr_cpp_config.d \
-./src/Base/cr_startup_lpc15xx.d 
+./src/Base/cr_startup_lpc15xx.d \
+./src/Base/init.d 
 
 C_DEPS += \
 ./src/Base/crp.d \
