@@ -8,6 +8,7 @@
 #ifndef PARSER_H_
 #define PARSER_H_
 #include <string>
+#include "XYdriver.h"
 using namespace std;
 
 
@@ -23,10 +24,8 @@ private:
 
 public:
 	GcodeParser(string str);
-	bool IsValid();
 	virtual ~GcodeParser();
-
-
+	bool runCommand(XYdriver *driver);
 };
 
 

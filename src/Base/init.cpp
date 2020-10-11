@@ -14,6 +14,7 @@ void prvSetupHardware()
 	heap_monitor_setup();
 	ITM_init();
 	Chip_PININT_Init(LPC_GPIO_PIN_INT);
+	vConfigureTimerForRunTimeStats();
 	/* Initial LED0 state is off */
 	Board_LED_Set(0, false);
 }
@@ -73,6 +74,15 @@ void irqSetup(int port, int pin, int channel){
 	case 3:NVIC_SetPriority(PIN_INT3_IRQn, configMAX_SYSCALL_INTERRUPT_PRIORITY+1);
 	break;
 	}
+
+}
+extern "C" {
+
+void vConfigureTimerForRunTimeStats( void ) {
+	Chip_SCT_Init(LPC_SCTSMALL1);
+	LPC_SCTSMALL1->CONFIG = SCT_CONFIG_32BIT_COUNTER;
+	LPC_SCTSMALL1->CTRL_U = SCT_CTRL_PRE_L(255) | SCT_CTRL_CLRCTR_L; // set prescaler to 256 (255 + 1), and start timer
+}
 
 }
 

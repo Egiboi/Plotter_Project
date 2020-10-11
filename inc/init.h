@@ -77,6 +77,8 @@ XYdriver* driverSetup(void);
 //pen init(void);
 //laser init(void);
 void irqSetup(int port, int pin, int channel);
-
+extern "C" {
+void vConfigureTimerForRunTimeStats( void );
+}
 
 #endif /* INIT_H_ */

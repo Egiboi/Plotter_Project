@@ -101,12 +101,46 @@ GcodeParser::GcodeParser(string str) {
 	}
 
 }
-bool GcodeParser::IsValid() {
-	return valid;
-}
+
 GcodeParser::~GcodeParser() {
 }
+//Run the command, return bool is command valid and has it been run. Check value in call
+bool GcodeParser::runCommand(XYdriver *driver){
+	if(valid==true){
 
+		if (strcmp(Cmnd,"M10") == 0) {
+
+		}
+		else if (strcmp(Cmnd,"M11") == 0) {
+			//reply limit switch states
+			//Limit switches read one (high) when switch is open and zero (low) when closed
+
+		}
+		else if (strcmp(Cmnd,"M2") == 0) {
+			//Save pen value
+		}
+		else if (strcmp(Cmnd,"M1") == 0) {
+			//set pen position
+		}
+		else if (strcmp(Cmnd,"M4") == 0) {
+			//Laser power
+		}
+		else if (strcmp(Cmnd,"G28") == 0) {
+			//Go to origin
+
+
+		}
+		else if (strcmp(Cmnd,"G1") == 0) {
+			driver->step(x, y);
+
+		}
+		return valid;
+
+	}else{
+		return valid;
+	}
+
+}
 
 
 
