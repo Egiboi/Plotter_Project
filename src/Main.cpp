@@ -128,4 +128,13 @@ int main(void)
 	/* Should never arrive here */
 	return 1;
 }
+extern "C" {
+void RIT_IRQHandler(void) {
+	if(driver->calibrate){
+		portEND_SWITCHING_ISR(driver->IRQHandlerCali());
+	}else{
+		portEND_SWITCHING_ISR(driver->IRQHandler());
+	}
+}
+}
 
