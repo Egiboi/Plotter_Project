@@ -78,7 +78,19 @@ XYdriver* driverSetup(void);
 //laser init(void);
 void irqSetup(int port, int pin, int channel);
 extern "C" {
-void vConfigureTimerForRunTimeStats( void );
+
+void RIT_IRQHandler(void) {
+	if(xydriver->calibrate){
+		portEND_SWITCHING_ISR(xydriver->IRQHandlerCali());
+	}else{
+		portEND_SWITCHING_ISR(xydriver->IRQHandler());
+	}
+}
+void vConfigureTimerForRunTimeStats(void) {
+	Chip_SCT_Init(LPC_SCTSMALL1);
+	LPC_SCTSMALL1->CONFIG = SCT_CONFIG_32BIT_COUNTER;
+	LPC_SCTSMALL1->CTRL_U = SCT_CTRL_PRE_L(255) | SCT_CTRL_CLRCTR_L; // set prescaler to 256 (255 + 1), and start timer
+}
 }
 
 #endif /* INIT_H_ */
