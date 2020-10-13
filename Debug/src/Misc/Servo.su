@@ -1,4 +1,5 @@
 swm_15xx.h:232:20:void Chip_SWM_MovablePortPinAssign(CHIP_SWM_PIN_MOVABLE_T, uint8_t, uint8_t)	16	static
-Servo.cpp:6:1:Servo::Servo(int, int)	24	static
-Servo.cpp:23:6:void Servo::move(double)	40	static
-cmath:290:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::fmod(_Tp, _Up) [with _Tp = double; _Up = int]	32	static
+Servo.cpp:8:1:Servo::Servo(int, int)	24	static
+Servo.cpp:25:6:void Servo::move(double)	32	static
+Servo.cpp:41:1:Servo::~Servo()	16	static
+Servo.cpp:41:1:virtual Servo::~Servo()	16	static

@@ -57,7 +57,9 @@ src/Misc/Servo.o src/Misc/Servo.d: ../src/Misc/Servo.cpp \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/portable.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/deprecated_definitions.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\portable\GCC\ARM_CM3/portmacro.h \
- C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/mpu_wrappers.h
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/mpu_wrappers.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/task.h \
+ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/list.h
 
 C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/Servo.h:
 
@@ -176,3 +178,7 @@ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/dep
 C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\portable\GCC\ARM_CM3/portmacro.h:
 
 C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/mpu_wrappers.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/task.h:
+
+C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/list.h:

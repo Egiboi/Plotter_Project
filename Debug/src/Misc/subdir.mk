@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/Misc/DigitalIoPin.cpp \
+../src/Misc/Laser.cpp \
 ../src/Misc/Parser.cpp \
 ../src/Misc/Servo.cpp \
 ../src/Misc/XYdriver.cpp 
@@ -14,6 +15,7 @@ C_SRCS += \
 
 OBJS += \
 ./src/Misc/DigitalIoPin.o \
+./src/Misc/Laser.o \
 ./src/Misc/Parser.o \
 ./src/Misc/Servo.o \
 ./src/Misc/XYdriver.o \
@@ -21,6 +23,7 @@ OBJS += \
 
 CPP_DEPS += \
 ./src/Misc/DigitalIoPin.d \
+./src/Misc/Laser.d \
 ./src/Misc/Parser.d \
 ./src/Misc/Servo.d \
 ./src/Misc/XYdriver.d 
