@@ -107,6 +107,7 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 	if(valid==true){
 
 		if (strcmp(code,"M10\n") == 0) {
+			//Send init values
 			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\nOK\r\n");
 		}
 		else if (strcmp(Cmnd,"M11") == 0) {
@@ -146,13 +147,14 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 			//Save pen value
 		}
 		else if (strcmp(Cmnd,"M1") == 0) {
-			//set pen position
+			double value = 1000+1000/255*penPos;
+			servo->move(value);
 		}
 		else if (strcmp(Cmnd,"M4") == 0) {
-			//Laser power
+			laser->changeLaserPower(laserPwr);
 		}
 		else if (strcmp(Cmnd,"G28") == 0) {
-			//Go to origin
+			driver->step(0, 0);
 
 		}
 		else if (strcmp(code,"G1\n") == 0) {
