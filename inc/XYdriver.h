@@ -23,6 +23,7 @@ public:
 	bool IRQHandlerCali(void);
 	bool IRQHandler(void);
 	void RIT_start(int count, int pps);
+	int limitSwitch(int sw);
     bool calibrate = true;
 	volatile uint32_t RIT_count;
     SemaphoreHandle_t sbRIT;

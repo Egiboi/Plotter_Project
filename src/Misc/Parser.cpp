@@ -110,6 +110,36 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\nOK\r\n");
 		}
 		else if (strcmp(Cmnd,"M11") == 0) {
+			int state1=-1,state2=-1,state3=-1,state4=-1;
+			char buffer[40]={};
+            //reply limit switch states
+            //Limit switches read one (high) when switch is open and zero (low) when closed
+            if(driver->limitSwitch(4)){
+                state4 = 1;
+            }
+            else if(!driver->limitSwitch(4)){
+                state4 = 0;
+            }
+            if(driver->limitSwitch(3)){
+                state3 = 1;
+            }
+            else if(!driver->limitSwitch(3)){
+                state3 = 0;
+            }
+            if(driver->limitSwitch(2)){
+                state2 = 1;
+            }
+            else if(!driver->limitSwitch(2)){
+                state2 = 0;
+            }
+            if(driver->limitSwitch(1)){
+                state1 = 1;
+            }
+            else if(!driver->limitSwitch(1)){
+                state1 = 0;
+            }
+            sprintf(buffer,"M11 %d %d %d %d\r\nOK\r\n",state4, state3, state2 , state1);
+            vallox->write(buffer);
 
 		}
 		else if (strcmp(Cmnd,"M2") == 0) {

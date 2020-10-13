@@ -11,4 +11,5 @@ XYdriver.cpp:25:6:void XYdriver::calibration()	48	static
 XYdriver.cpp:92:6:void XYdriver::step(float, float)	48	static
 XYdriver.cpp:130:6:bool XYdriver::IRQHandlerCali()	24	static
 XYdriver.cpp:159:6:bool XYdriver::IRQHandler()	24	static
-XYdriver.cpp:199:6:void XYdriver::RIT_start(int, int)	40	static
+XYdriver.cpp:199:5:int XYdriver::limitSwitch(int)	16	static
+XYdriver.cpp:216:6:void XYdriver::RIT_start(int, int)	40	static

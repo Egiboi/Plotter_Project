@@ -81,3 +81,8 @@ Debug/src/Misc/Servo.d
 Debug/src/Misc/Servo.o
 Debug/src/Misc/Servo.su
 Debug/src/Misc/XYdriver.o
+*.su
+*.map
+*.d
+*.o
+*.mk
