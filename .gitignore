@@ -53,3 +53,13 @@ Debug/src/Main.o
 Debug/PlotterProject.axf
 Debug/src/Base/init.o
 Debug/src/Main.o
+Debug/PlotterProject.map
+Debug/src/Base/init.d
+Debug/src/Base/init.o
+Debug/src/Base/init.su
+Debug/src/Main.d
+Debug/src/Main.o
+Debug/src/Main.su
+Debug/src/Misc/Parser.d
+Debug/src/Misc/Parser.o
+Debug/src/Misc/Parser.su

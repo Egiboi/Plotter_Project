@@ -40,6 +40,8 @@
  ****************************************************************************/
 
 XYdriver *driver;
+Laser *laser;
+Servo *servo;
 
 /* LED1 toggle thread */
 static void vLEDTask1(void *pvParameters) {
@@ -104,6 +106,8 @@ int main(void)
 {
 	prvSetupHardware();
 	driver= driverSetup();
+	laser = new Laser();
+	servo = new Servo();
 
 	//mutex = xSemaphoreCreateMutex();
 

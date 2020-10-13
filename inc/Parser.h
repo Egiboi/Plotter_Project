@@ -9,6 +9,8 @@
 #define PARSER_H_
 #include <string>
 #include "XYdriver.h"
+#include "Laser.h"
+#include "Servo.h"
 using namespace std;
 
 
@@ -25,7 +27,7 @@ private:
 public:
 	GcodeParser(string str);
 	virtual ~GcodeParser();
-	bool runCommand(XYdriver *driver);
+	bool runCommand(XYdriver *driver,Laser *laser, Servo *servo);
 };
 
 

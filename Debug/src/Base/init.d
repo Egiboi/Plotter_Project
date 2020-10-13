@@ -67,6 +67,8 @@ src/Base/init.o src/Base/init.d: ../src/Base/init.cpp \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h
 
@@ -205,6 +207,10 @@ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h:
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h:
 
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h:
 
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h:
 

@@ -62,7 +62,10 @@ src/Misc/Parser.o src/Misc/Parser.d: ../src/Misc/Parser.cpp \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/semphr.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/queue.h \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h \
- C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h
+ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h \
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h
 
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Parser.h:
 
@@ -191,3 +194,9 @@ C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/task.h:
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h:
+
+C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h:

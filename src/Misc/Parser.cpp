@@ -105,7 +105,7 @@ GcodeParser::GcodeParser(string str) {
 GcodeParser::~GcodeParser() {
 }
 //Run the command, return bool is command valid and has it been run. Check value in call
-bool GcodeParser::runCommand(XYdriver *driver){
+bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo){
 	if(valid==true){
 
 		if (strcmp(Cmnd,"M10") == 0) {
