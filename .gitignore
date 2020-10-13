@@ -46,3 +46,10 @@ Debug/PlotterProject.map
 Debug/PlotterProject.axf
 Debug/makefile
 .settings/language.settings.xml
+.cproject
+Debug/PlotterProject.axf
+Debug/src/Base/init.o
+Debug/src/Main.o
+Debug/PlotterProject.axf
+Debug/src/Base/init.o
+Debug/src/Main.o
