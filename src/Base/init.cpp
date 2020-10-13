@@ -79,6 +79,26 @@ void irqSetup(int port, int pin, int channel){
 	}
 
 }
+
+LpcUartConfig UartCreate(){
+	LpcPinMap none = { .port = -1, .pin = -1};
+		LpcPinMap txpin1 = { .port = 0, .pin = 18 };
+		LpcPinMap rxpin1 = { .port = 0, .pin = 13 };
+		LpcUartConfig cfg1 = {
+				.pUART = LPC_USART0,
+				.speed = 115200,
+				.data = UART_CFG_DATALEN_8 | UART_CFG_PARITY_NONE | UART_CFG_STOPLEN_1,
+				.rs485 = false,
+				.tx = txpin1,
+				.rx = rxpin1,
+				.rts = none,
+				.cts = none
+		};
+		Chip_SWM_MovablePortPinAssign(SWM_SWO_O, 1, 2);
+
+		return cfg1;
+}
+
 extern "C" {
 
 void vConfigureTimerForRunTimeStats( void ) {
@@ -87,4 +107,6 @@ void vConfigureTimerForRunTimeStats( void ) {
 	LPC_SCTSMALL1->CTRL_U = SCT_CTRL_PRE_L(255) | SCT_CTRL_CLRCTR_L; // set prescaler to 256 (255 + 1), and start timer
 }
 }
+
+
 

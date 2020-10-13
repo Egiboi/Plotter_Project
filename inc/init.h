@@ -23,7 +23,7 @@
 #include "DigitalIoPin.h"
 #include "Laser.h"
 #include "Servo.h"
-
+#include "LpcUart.h"
 
 //Stepper motor port and pins
 #define directionXPort 1
@@ -79,6 +79,7 @@ XYdriver* driverSetup(void);
 //pen init(void);
 //laser init(void);
 void irqSetup(int port, int pin, int channel);
+LpcUartConfig UartCreate( void );
 extern "C" {
 void vConfigureTimerForRunTimeStats( void );
 void RIT_IRQHandler(void);
