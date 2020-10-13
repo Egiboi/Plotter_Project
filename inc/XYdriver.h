@@ -26,6 +26,7 @@ public:
     bool calibrate = true;
 	volatile uint32_t RIT_count;
     SemaphoreHandle_t sbRIT;
+    SemaphoreHandle_t xyDone;
 
     bool dirXToOrigin;
     bool dirYToOrigin;
@@ -34,12 +35,13 @@ public:
 private:
 	DigitalIoPin* dirX;
 	DigitalIoPin* stepX;
-	DigitalIoPin* dirY;
-	DigitalIoPin* stepY;
+
 	DigitalIoPin* lim1;
 	DigitalIoPin* lim2;
 	DigitalIoPin* lim3;
 	DigitalIoPin* lim4;
+	DigitalIoPin* dirY;
+	DigitalIoPin* stepY;
 
     DigitalIoPin* lead;  			// leading motor
     DigitalIoPin* follow;	 		// other motor

@@ -19,12 +19,15 @@
 
 #include "ITM_write.h"
 #include "FreeRTOS.h"
+#include "semphr.h"
+
 
 class Servo{
 public:
 	Servo(int port = 0, int pin = 10);
 	void move(double value);
 	virtual ~Servo();
+	SemaphoreHandle_t sDone;
 private:
 	int port;
 	int pin;

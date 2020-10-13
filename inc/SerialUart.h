@@ -7,19 +7,22 @@
 
 #ifndef SERIALUART_H_
 #define SERIALUART_H_
+#include "string"
+#include "LpcUart.h"
 
 
 class SerialUart{
 public:
 	SerialUart();
 	virtual ~SerialUart();
-	void UartReceive();
+	void UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo);
+	LpcUartConfig cfg1;
+
 private:
 	std::string whole;
 	char str[80];
 	int count;
 	char c;
-	LpcUartConfig cfg1;
 };
 
 
