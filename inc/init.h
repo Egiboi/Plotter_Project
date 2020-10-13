@@ -21,6 +21,8 @@
 #include "heap_lock_monitor.h"
 #include "ITM_write.h"
 #include "DigitalIoPin.h"
+#include "Laser.h"
+#include "Servo.h"
 
 
 //Stepper motor port and pins
