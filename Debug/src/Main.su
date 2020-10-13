@@ -2,3 +2,4 @@ Main.cpp:45:13:void vLEDTask1(void*)	24	static
 Main.cpp:59:13:void vLEDTask2(void*)	24	static
 Main.cpp:73:13:void vUARTTask(void*)	32	static
 Main.cpp:103:5:int main()	16	static
+Main.cpp:132:6:void RIT_IRQHandler()	8	static
