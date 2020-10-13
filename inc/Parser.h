@@ -11,6 +11,7 @@
 #include "XYdriver.h"
 #include "Laser.h"
 #include "Servo.h"
+#include "init.h"
 using namespace std;
 
 
@@ -22,12 +23,13 @@ private:
 	char Cmnd[10];
 	bool valid;
 	char fullCommand[100];
+	char code[8];
 
 
 public:
-	GcodeParser(string str);
+	GcodeParser(char *str);
 	virtual ~GcodeParser();
-	bool runCommand(XYdriver *driver,Laser *laser, Servo *servo);
+	bool runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUart *vallox);
 };
 
 

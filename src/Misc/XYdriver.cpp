@@ -14,6 +14,7 @@ XYdriver::XYdriver(DigitalIoPin* dirX, DigitalIoPin* stepX, DigitalIoPin* lim1, 
 	dirXToOrigin = false;
 	dirYToOrigin = false;
 	sbRIT = xSemaphoreCreateBinary();
+	xyDone = xSemaphoreCreateBinary();
 
 	totalStepsX = 0;
 	totalStepsY = 0;
@@ -117,6 +118,7 @@ void XYdriver::step(float x, float y){
 	while(currentLeadSteps < totalLeadSteps){
 		RIT_start(2,1000000/(pps*2));
 	}
+	xSemaphoreGive(xyDone);
 	if (abs(dx) > abs(dy)) {
 		currentX = (dX == dirXToOrigin) ? (currentX - currentLeadSteps) : (currentX + currentLeadSteps);
 		currentY = (dY == dirYToOrigin) ? (currentY - currentFolSteps) : (currentY + currentFolSteps);

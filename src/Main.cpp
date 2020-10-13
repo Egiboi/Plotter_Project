@@ -47,7 +47,6 @@ Servo *servo;
 
 /* LED1 toggle thread */
 static void vLEDTask1(void *pvParameters) {
-	bool LedState = false;
 	SerialUart read;
 	while (1) {
 		read.UartReceive(driver,laser,servo);
