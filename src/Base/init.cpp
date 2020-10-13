@@ -6,6 +6,18 @@
  */
 
 #include <init.h>
+#include <Laser.h>
+#include <Servo.h>
+
+DigitalIoPin* dirX;
+DigitalIoPin* stepX;
+DigitalIoPin* lim1;
+DigitalIoPin* lim2;
+DigitalIoPin* lim3;
+DigitalIoPin* lim4;
+DigitalIoPin* dirY;
+DigitalIoPin* stepY;
+XYdriver *xydriver;
 
 void prvSetupHardware()
 {
@@ -15,6 +27,17 @@ void prvSetupHardware()
 	ITM_init();
 	Chip_PININT_Init(LPC_GPIO_PIN_INT);
 	vConfigureTimerForRunTimeStats();
+
+	dirX = new DigitalIoPin(1,0,DigitalIoPin::output,false);
+	stepX = new DigitalIoPin(0,24,DigitalIoPin::output,false);
+	lim1 = new DigitalIoPin(0,9,DigitalIoPin::pullup);
+	lim2 = new DigitalIoPin(0,29,DigitalIoPin::pullup);
+	lim3 = new DigitalIoPin(1,3,DigitalIoPin::pullup);
+	lim4 = new DigitalIoPin(0,0,DigitalIoPin::pullup);
+	dirY = new DigitalIoPin(0,28,DigitalIoPin::output,false);
+	stepY = new DigitalIoPin(0,27,DigitalIoPin::output,false);
+	xydriver = new XYdriver(dirX, stepX, lim1, lim2, lim3, lim4, dirY, stepY);
+
 	/* Initial LED0 state is off */
 	Board_LED_Set(0, false);
 }
@@ -83,6 +106,12 @@ void vConfigureTimerForRunTimeStats( void ) {
 	LPC_SCTSMALL1->CONFIG = SCT_CONFIG_32BIT_COUNTER;
 	LPC_SCTSMALL1->CTRL_U = SCT_CTRL_PRE_L(255) | SCT_CTRL_CLRCTR_L; // set prescaler to 256 (255 + 1), and start timer
 }
-
+void RIT_IRQHandler(void) {
+	if(xydriver->calibrate){
+		portEND_SWITCHING_ISR(xydriver->IRQHandlerCali());
+	}else{
+		portEND_SWITCHING_ISR(xydriver->IRQHandler());
+	}
+}
 }
 

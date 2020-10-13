@@ -64,7 +64,9 @@ src/Base/init.o src/Base/init.d: ../src/Base/init.cpp \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/task.h \
  C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/list.h \
  C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/heap_lock_monitor.h \
- C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/ITM_write.h
+ C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/ITM_write.h \
+ C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/Laser.h \
+ C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/Servo.h
 
 C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/init.h:
 
@@ -197,3 +199,7 @@ C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\src\include/lis
 C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/heap_lock_monitor.h:
 
 C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/ITM_write.h:
+
+C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/Laser.h:
+
+C:\Users\winte\OneDrive\Tiedostot\GitHub\Plotter_Project\inc/Servo.h:
