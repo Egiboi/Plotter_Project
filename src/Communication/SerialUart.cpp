@@ -32,15 +32,19 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "semphr.h"
-#include "string"
-#include "string.h"
-
+#include <string>
+#include "FreeRTOS.h"
 #include "task.h"
+#include "DigitalIoPin.h"
 #include <mutex>
 #include "semphr.h"
 #include <cmath>
+#include <cstring>
+
+#include "chip.h"
 #include "ITM_write.h"
 #include "Fmutex.h"
+
 #include "heap_lock_monitor.h"
 #include "DigitalIoPin.h"
 #include "chip.h"
@@ -49,36 +53,37 @@
 #include <stdio.h>
 #include "init.h"
 #include "SerialUart.h"
-#include "XYdriver.h"
-#include "Servo.h"
-#include "Parser.h"
 
 SerialUart::SerialUart(){
 	count = 0;
 }
 SerialUart::~SerialUart(){
 }
-void SerialUart::UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo) {
+void SerialUart::UartReceive() {
+
 	cfg1 = UartCreate();
 	LpcUart vallox(cfg1);
-	vTaskDelay(50);
 
 	while (1) {
 		vallox.read(c);
+
 		if(c != EOF && c != '\n' && count < sizeof(str) && c != '\0') {
 			str[count] = c;
 			count++;
+
 		}
 		else if(c == '\n' || c == '\r' ){
 			str[count] = '\n';
 			str[count+1] = '\0';
 			ITM_write(str);
 
-			GcodeParser parser(str);
-			parser.runCommand(xydriver, laser, servo, &vallox);
+			if(strcmp (str,"M10\n") == 0){
+				vallox.write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\nOK\r\n");
+			}
 
-			do{}while(xSemaphoreTake(servo->sDone, 10) == pdFALSE||xSemaphoreTake(xydriver->xyDone, 10) == pdFALSE);
-			vallox.write("OK\r\n");
+			whole = std::string(str);
+
+
 			count = 0;
 			memset(str, 0, sizeof str);
 		}
