@@ -76,8 +76,7 @@ void SerialUart::UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo) {
 
 			GcodeParser parser(str);
 			parser.runCommand(xydriver, laser, servo, &vallox);
-
-			do{}while(xSemaphoreTake(servo->sDone, 10) == pdFALSE||xSemaphoreTake(xydriver->xyDone, 10) == pdFALSE);
+			//do{}while(xSemaphoreTake(servo->sDone, 10) == pdFALSE||xSemaphoreTake(xydriver->xyDone, 10) == pdFALSE);
 			vallox.write("OK\r\n");
 			count = 0;
 			memset(str, 0, sizeof str);
