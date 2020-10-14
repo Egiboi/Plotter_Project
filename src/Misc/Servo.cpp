@@ -25,13 +25,13 @@ Servo::Servo(int port0, int pin0): port(port0), pin(pin0){
 }
 void Servo::move(double value){
 	if(value > LPC_SCT0->MATCHREL[1].L){
-		while(LPC_SCT0->MATCHREL[1].L <= value){
+		while(LPC_SCT0->MATCHREL[1].L <= value && LPC_SCT0->MATCHREL[1].L <=max){
 			++LPC_SCT0->MATCHREL[1].L;
 			vTaskDelay(1);
 		}
 	}
-	else if(value < LPC_SCT0->MATCHREL[1].L){
-		while(LPC_SCT0->MATCHREL[1].L >= value){
+	else if(value < LPC_SCT0->MATCHREL[1].L ){
+		while(LPC_SCT0->MATCHREL[1].L >= value && LPC_SCT0->MATCHREL[1].L >=min){
 			--LPC_SCT0->MATCHREL[1].L;
 			vTaskDelay(1);
 		}
@@ -39,4 +39,31 @@ void Servo::move(double value){
 	dutyCycle = value/20000;
 	lastValue = value;
 }
+bool Servo::setMin(int value){
+	if(value>hardMin&&value<max){
+		min=value;
+		return true;
+		//Changed min value
+	}else{
+		return false;
+		//Change value out of hard bounds
+	}
+}
+bool Servo::setMax(int value){
+	if(value<hardMax&&value>min){
+		max=value;
+		return true;
+		//changed  max value
+	}else{
+		return false;
+		//Change value out of hard bounds
+	}
+}
+int Servo::getMin(){
+	return min;
+}
+int Servo::getMax(){
+	return max;
+}
+
 Servo::~Servo(){}

@@ -20,6 +20,8 @@
 #include "ITM_write.h"
 #include "FreeRTOS.h"
 #include "semphr.h"
+#define hardMin 100
+#define hardMax 3000
 
 
 class Servo{
@@ -28,6 +30,10 @@ public:
 	void move(double value);
 	virtual ~Servo();
 	SemaphoreHandle_t sDone;
+	bool setMin(int value);
+	bool setMax(int value);
+	int getMin();
+	int getMax();
 private:
 	int port;
 	int pin;
@@ -36,6 +42,7 @@ private:
 	double remain;
 	double lastValue;
 	double dutyCycle;
+	int min,max;
 };
 
 

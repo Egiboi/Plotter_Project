@@ -47,10 +47,10 @@ GcodeParser::GcodeParser(char *str) {
 		}
 	}
 	else if (strcmp("M2\n", code) == 0) {
-		if(sscanf(str, "M2 U%d D%d", &limx, &limy)==2){
+		if(sscanf(str, "M2 U%d D%d", &limUp, &limDown)==2){
 
 		}
-		if (limx <= 255 && limx >= 0 && limy <= 255 && limy >= 0) {
+		if (limUp <= 255 && limUp >= 0 && limDown <= 255 && limDown >= 0) {
 			valid = true;
 		} else {
 			valid = false;
@@ -105,14 +105,14 @@ GcodeParser::~GcodeParser() {
 bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUart *vallox){
 
 	if(valid==true){
-
+		char buffer[40]={};
 		if (strcmp(code,"M10\n") == 0) {
 			//Send init values
 			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\nOK\r\n");
 		}
 		else if (strcmp(Cmnd,"M11") == 0) {
 			int state1=-1,state2=-1,state3=-1,state4=-1;
-			char buffer[40]={};
+
             //reply limit switch states
             //Limit switches read one (high) when switch is open and zero (low) when closed
             if(driver->limitSwitch(4)){
@@ -144,10 +144,22 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 		}
 		else if (strcmp(Cmnd,"M2") == 0) {
-			//Save pen value
+
+			if(servo->setMax(limUp)){
+				//was set
+			}{
+				//failed
+			}
+			if(servo->setMin(limDown)){
+				//was set
+			}{
+				//failed
+			}
+
+
 		}
 		else if (strcmp(Cmnd,"M1") == 0) {
-			double value = 1000+1000/255*penPos;
+			double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*penPos);
 			servo->move(value);
 		}
 		else if (strcmp(Cmnd,"M4") == 0) {
