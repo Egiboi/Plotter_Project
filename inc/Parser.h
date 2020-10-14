@@ -19,7 +19,7 @@ using namespace std;
 class GcodeParser {
 private:
 	float y,x;
-	int a, limUp, limDown, penPos, laserPwr;
+	int a, limx, limy, penPos, laserPwr;
 	char Cmnd[10];
 	bool valid;
 	char fullCommand[100];
