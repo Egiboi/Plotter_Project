@@ -69,8 +69,7 @@ src/Main.o src/Main.d: ../src/Main.cpp \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/SerialUart.h
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h
 
 C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\inc/board.h:
 
@@ -213,5 +212,3 @@ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h:
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h:
 
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/SerialUart.h:

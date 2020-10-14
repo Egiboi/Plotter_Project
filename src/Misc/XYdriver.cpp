@@ -196,23 +196,6 @@ bool XYdriver::IRQHandler(void){
 
 	return xHigherPriorityWoken;
 }
-int XYdriver::limitSwitch(int sw){
-	switch(sw){
-	case 1:
-		return lim1->read();
-		break;
-	case 2:
-		return lim2->read();
-		break;
-	case 3:
-		return lim3->read();
-		break;
-	case 4:
-		return lim4->read();
-		break;
-	}
-}
-
 void XYdriver::RIT_start(int count, int pps)
 {
 	uint64_t cmp_value;

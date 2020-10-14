@@ -1,5 +1,5 @@
 gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
-Parser.cpp:16:1:GcodeParser::GcodeParser(char*)	88	static
-Parser.cpp:102:1:GcodeParser::~GcodeParser()	16	static
-Parser.cpp:102:1:virtual GcodeParser::~GcodeParser()	16	static
-Parser.cpp:105:6:bool GcodeParser::runCommand(XYdriver*, Laser*, Servo*, LpcUart*)	96	static
+Parser.cpp:14:1:GcodeParser::GcodeParser(std::string)	112	static
+Parser.cpp:105:1:GcodeParser::~GcodeParser()	16	static
+Parser.cpp:105:1:virtual GcodeParser::~GcodeParser()	16	static
+Parser.cpp:108:6:bool GcodeParser::runCommand(XYdriver*, Laser*, Servo*)	24	static

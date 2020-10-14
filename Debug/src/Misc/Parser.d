@@ -65,14 +65,7 @@ src/Misc/Parser.o src/Misc/Parser.d: ../src/Misc/Parser.cpp \
  C:\Users\danie\Documents\Koulu\Vuosi\ 3\Periodi\ 1\ARM\MCU\FreeRTOS\src\include/list.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h \
  C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/init.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/XYdriver.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/heap_lock_monitor.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/SerialUart.h \
- C:\Users\danie\Documents\GitHub\Plotter_Project\inc/init.h
+ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h
 
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Parser.h:
 
@@ -207,17 +200,3 @@ C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Laser.h:
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Servo.h:
 
 C:\Users\danie\Documents\GitHub\Plotter_Project\inc/ITM_write.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/init.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/XYdriver.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/heap_lock_monitor.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/LpcUart.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/Fmutex.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/SerialUart.h:
-
-C:\Users\danie\Documents\GitHub\Plotter_Project\inc/init.h:
