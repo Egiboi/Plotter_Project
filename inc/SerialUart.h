@@ -21,7 +21,7 @@ public:
 private:
 	std::string whole;
 	char str[80];
-	uint count;
+	int count;
 	char c;
 };
 
