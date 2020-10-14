@@ -105,3 +105,4 @@ void RIT_IRQHandler(void) {
 	}
 }
 }
+

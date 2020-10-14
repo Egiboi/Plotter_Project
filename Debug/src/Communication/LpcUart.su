@@ -31,5 +31,5 @@ LpcUart.cpp:292:6:void LpcUart::txbreak(bool)	16	static
 LpcUart.cpp:297:6:bool LpcUart::rxbreak()	16	static
 LpcUart.cpp:303:6:void LpcUart::speed(int)	24	static
 LpcUart.cpp:311:6:bool LpcUart::txempty()	32	static
-std_mutex.h:161:16:std::lock_guard<_Mutex>::lock_guard(std::lock_guard<_Mutex>::mutex_type&) [with _Mutex = Fmutex]	16	static
-std_mutex.h:167:7:std::lock_guard<_Mutex>::~lock_guard() [with _Mutex = Fmutex]	16	static
+std_mutex.h:158:16:std::lock_guard<_Mutex>::lock_guard(std::lock_guard<_Mutex>::mutex_type&) [with _Mutex = Fmutex]	16	static
+std_mutex.h:164:7:std::lock_guard<_Mutex>::~lock_guard() [with _Mutex = Fmutex]	16	static
