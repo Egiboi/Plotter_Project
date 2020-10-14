@@ -105,6 +105,6 @@ void SerialUart::UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo) {
 			count = 0;
 		}
 
-		vTaskDelay(configTICK_RATE_HZ/500);
+		vTaskDelay(configTICK_RATE_HZ/10000);
 	}
 }
