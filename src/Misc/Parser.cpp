@@ -26,7 +26,8 @@ GcodeParser::GcodeParser(char *str) {
 
 	for(size_t j = 0; j < i; ++j){
 		code[j] = str[j];
-		code[j+1] = '\0';
+		code[j+1] = '\n';
+		code[j+2] = '\0';
 	}
 
 	char array[50]= {};
