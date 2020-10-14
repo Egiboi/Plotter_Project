@@ -49,9 +49,6 @@ Servo *servo;
 static void vLEDTask1(void *pvParameters) {
 	SerialUart read;
 	while (1) {
-		if(driver->calibrate){
-			driver->calibration();
-		}
 		read.UartReceive(driver,laser,servo);
 	}
 }
