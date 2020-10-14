@@ -111,7 +111,7 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 			//Send init values
 			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\nOK\r\n");
 		}
-		else if (strcmp(Cmnd,"M11") == 0) {
+		else if (strcmp(code,"M11") == 0) {
 			int state1=-1,state2=-1,state3=-1,state4=-1;
 
             //reply limit switch states
@@ -144,7 +144,7 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
             vallox->write(buffer);
 
 		}
-		else if (strcmp(Cmnd,"M2") == 0) {
+		else if (strcmp(code,"M2") == 0) {
 
 			if(servo->setMax(limUp)){
 				//was set
@@ -159,14 +159,14 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 
 		}
-		else if (strcmp(Cmnd,"M1") == 0) {
+		else if (strcmp(code,"M1") == 0) {
 			double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*penPos);
 			servo->move(value);
 		}
-		else if (strcmp(Cmnd,"M4") == 0) {
+		else if (strcmp(code,"M4") == 0) {
 			laser->changeLaserPower(laserPwr);
 		}
-		else if (strcmp(Cmnd,"G28") == 0) {
+		else if (strcmp(code,"G28") == 0) {
 			driver->step(0, 0);
 
 		}
