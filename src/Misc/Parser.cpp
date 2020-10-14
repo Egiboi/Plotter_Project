@@ -19,12 +19,12 @@ GcodeParser::GcodeParser(char *str) {
 		strcpy(fullCommand,str);
 	}
 	x=0;
-	int i = 0;
+	size_t i = 0;
 	while (str[i] != ' '&& strlen(str)>i) {
 		i++;
 	}
 
-	for(int j = 0; j < i; ++j){
+	for(size_t j = 0; j < i; ++j){
 		code[j] = str[j];
 		code[j+1] = '\n';
 		code[j+2] = '\0';

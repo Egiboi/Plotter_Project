@@ -211,6 +211,7 @@ int XYdriver::limitSwitch(int sw){
 		return lim4->read();
 		break;
 	}
+	return -1;
 }
 
 void XYdriver::RIT_start(int count, int pps)
