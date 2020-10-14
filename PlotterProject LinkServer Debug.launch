@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.crt.dsfdebug.crtmcu.launchType">
 <stringAttribute key=".gdbinit" value=""/>
+<stringAttribute key="InstructionTraceInfo" value="eJzFVl1v0zAUfUfiP0R5hzZtlxWJglzHpRH5ku1siBfLa71SSJOSODD+PY6bZv0w3YSQ6EMV2+cen3vujeO37x82mfVDlNW6yCe287pvWyJfFMt1vprYKZ29Gtvv37188VbIjZB3npB8nVXNBOXlSsiZ4LIuRWWF/GtR3ux5FEu4zo8mmhhEwymvhAWWSxVTTexXV0PX7Y/c64FtJWpK5HJiy7IWdq/Be7f0HD923bHjGvG+iX983X/jmPkRnZr09K+uD/nveVa1AeFZgPMHoPLqpzzBDtzxaOgM3b45hpZ8IWZ1novsWNHVG3c07psd+ilhUQqyXn1RD5ttkSuA1exr9AxWQbH4NrGjOst2z7alKLBYEaloVJ3+289uC36/76gmiSP1LWCh0uQlV3orK6o3d6Kc2KOdG6TebotSiqUFN9uQy8WX1isL/lpkAhZ1Lhu4nmsCGsvanrY8Lnkz3tfECtb5N6cbhfwh5JXyzrmyu337u33NNLudW5bdwEjiXCJ5vpbBv6EZ7mh6nZdtmyVlcb/O1LHQuli15WCQ4sC64VktOj96f8L3Dgq8B573b7MSPWyR3MBqcd7M+wNj38y3Rbnsmlnc1Sssvnc5KhIieSlVf2/1uaRGWdYt61EgfohML9L1RlSSHzimX0rwGNEeY7ODJB67zvcmtlr0PcwSjAiK6GlfNgiKAUSMUICp+o+TS9g5IGzmz+JZGgSmdRBQhCNA/RvEphhEcM4SAD8i88bzNJyy4YCRNElibMb4IVLSwoQp1hQEDEUw9vzogwmMkZdC5DEYp5HSwRwTCIKIpQQxFE4V1Fep3wIK50nsR5SYAjxAAQOeMhHGjY6Y7gUjz+xBwDD64BMlgagn4IFpgNpOPKmVbsaTquk5XX4tN1apfKJ6b4ABjfGZyDZgtAvQeXlnqTE/StLzBE8308Y9gdKGPK2nRSvxTUsELE7p0wrC0EOqwKp4z9HbcEdNrt0mOopNU8KI/xldjk6Aj3VhESHPyGfQGtz0P/NQQueX6f2IUJyGqgNInGKI/jIXggIEL8k6sfnQt95jf/W6E0zfTNTTc77T7V3FcLSdXhHO6ISBb39zMHz39dtA6Oz06L68xQ5ydPXTU8fXw9/eshywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
 <booleanAttribute key="attach" value="false"/>
 <stringAttribute key="bootrom.stall" value=""/>
 <stringAttribute key="com.crt.ctrlcenter.OFSemuDetails" value="LinkServer"/>
@@ -81,6 +82,7 @@
 <mapAttribute key="org.eclipse.debug.core.preferred_launchers">
 <mapEntry key="[debug]" value="com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunch"/>
 </mapAttribute>
+<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
 <stringAttribute key="process_factory_id" value="com.nxp.mcuxpresso.core.debug.override.MCXProcessFactory"/>
 <booleanAttribute key="redlink.disable.preconnect.script" value="false"/>
 <booleanAttribute key="redlink.enable.flashhashing" value="true"/>
