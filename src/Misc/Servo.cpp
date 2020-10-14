@@ -21,6 +21,8 @@ Servo::Servo(int port0, int pin0): port(port0), pin(pin0){
 	LPC_SCT0->OUT[0].SET = (1 << 0);            // event 0 will set SCTx_OUT0
 	LPC_SCT0->OUT[0].CLR = (1 << 1);            // event 1 will clear SCTx_OUT0
 	LPC_SCT0->CTRL_L &= ~(1 << 2);
+	min = 1000;
+	max =2000;
 	sDone = xSemaphoreCreateBinary();
 }
 void Servo::move(double value){
