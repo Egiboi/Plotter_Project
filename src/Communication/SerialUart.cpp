@@ -72,14 +72,14 @@ void SerialUart::UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo) {
 		else if(c == '\n' || c == '\r' ){
 			str[count] = '\n';
 			str[count+1] = '\0';
-			ITM_write(str);
 
+			ITM_write(str);
 			GcodeParser parser(str);
 			parser.runCommand(xydriver, laser, servo, &vallox);
 			//do{}while(xSemaphoreTake(servo->sDone, 10) == pdFALSE||xSemaphoreTake(xydriver->xyDone, 10) == pdFALSE);
 			vallox.write("OK\r\n");
+			memset(str, 0, sizeof(str));
 			count = 0;
-			memset(str, 0, sizeof str);
 		}
 
 		vTaskDelay(configTICK_RATE_HZ);
