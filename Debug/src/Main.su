@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
 Main.cpp:49:13:void vLEDTask1(void*)	184	static
 Main.cpp:77:5:int main()	24	static
 Main.cpp:100:6:void RIT_IRQHandler()	8	static
+=======
+Main.cpp:47:13:void vLEDTask1(void*)	24	static
+Main.cpp:61:13:void vLEDTask2(void*)	24	static
+Main.cpp:75:13:void vUARTTask(void*)	32	static
+Main.cpp:105:5:int main()	24	static
+Main.cpp:136:6:void RIT_IRQHandler()	8	static
+>>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi

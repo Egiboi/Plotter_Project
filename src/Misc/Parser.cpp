@@ -108,6 +108,7 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 		char buffer[40]={};
 
 		if (strcmp(code,"M10\n") == 0) {
+<<<<<<< HEAD
 			//Send init values
 			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\n");
 		}
@@ -142,6 +143,11 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
             }
             sprintf(buffer,"M11 %d %d %d %d\r\n",state4, state3, state2 , state1);
             vallox->write(buffer);
+=======
+			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\nOK\r\n");
+		}
+		else if (strcmp(Cmnd,"M11") == 0) {
+>>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 
 		}
 		else if (strcmp(code,"M2") == 0) {
@@ -159,6 +165,7 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 
 		}
+<<<<<<< HEAD
 		else if (strcmp(code,"M1\n") == 0) {
 			double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*penPos);
 			servo->move(value);
@@ -168,6 +175,16 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 		}
 		else if (strcmp(code,"G28\n") == 0) {
 			driver->step(0, 0);
+=======
+		else if (strcmp(Cmnd,"M1") == 0) {
+			//set pen position
+		}
+		else if (strcmp(Cmnd,"M4") == 0) {
+			//Laser power
+		}
+		else if (strcmp(Cmnd,"G28") == 0) {
+			//Go to origin
+>>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 
 		}
 		else if (strcmp(code,"G1\n") == 0) {

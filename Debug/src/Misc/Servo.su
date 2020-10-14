@@ -1,5 +1,6 @@
 swm_15xx.h:232:20:void Chip_SWM_MovablePortPinAssign(CHIP_SWM_PIN_MOVABLE_T, uint8_t, uint8_t)	16	static
 Servo.cpp:8:1:Servo::Servo(int, int)	24	static
+<<<<<<< HEAD
 Servo.cpp:26:6:void Servo::move(double)	32	static
 Servo.cpp:42:6:bool Servo::setMin(int)	16	static
 Servo.cpp:52:6:bool Servo::setMax(int)	16	static
@@ -7,3 +8,8 @@ Servo.cpp:62:5:int Servo::getMin()	16	static
 Servo.cpp:65:5:int Servo::getMax()	16	static
 Servo.cpp:69:1:Servo::~Servo()	16	static
 Servo.cpp:69:1:virtual Servo::~Servo()	16	static
+=======
+Servo.cpp:25:6:void Servo::move(double)	32	static
+Servo.cpp:41:1:Servo::~Servo()	16	static
+Servo.cpp:41:1:virtual Servo::~Servo()	16	static
+>>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
