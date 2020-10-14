@@ -24,7 +24,7 @@ GcodeParser::GcodeParser(char *str) {
 		i++;
 	}
 
-	for(size_t j = 0; j < i; ++j){
+	for(size_t j = 0; j < i; j++){
 		code[j] = str[j];
 		code[j+1] = '\0';
 	}
@@ -46,7 +46,7 @@ GcodeParser::GcodeParser(char *str) {
 			valid = false;
 		}
 	}
-	else if (strcmp("M2\n", code) == 0) {
+	else if (strcmp("M2", code) == 0) {
 		if(sscanf(str, "M2 U%d D%d", &limUp, &limDown)==2){
 
 		}
@@ -56,7 +56,7 @@ GcodeParser::GcodeParser(char *str) {
 			valid = false;
 		}
 	}
-	else if (strcmp("M1\n", code) == 0) {
+	else if (strcmp("M1", code) == 0) {
 		if(sscanf(str, "M1 %d", &penPos)==1){
 			if (penPos <= 255 && penPos >= 0) {
 				valid = true;
@@ -67,7 +67,7 @@ GcodeParser::GcodeParser(char *str) {
 			valid = false;
 		}
 	}
-	else if (strcmp("M4\n", code) == 0) {
+	else if (strcmp("M4", code) == 0) {
 		if(sscanf(str, "M4 %d", &laserPwr)==1){
 			if (laserPwr <= 255 && laserPwr >= 0) {
 				valid = true;
@@ -85,7 +85,7 @@ GcodeParser::GcodeParser(char *str) {
 			valid = false;
 		}
 	}
-	else if (strcmp("G1\n", code) == 0) {
+	else if (strcmp("G1", code) == 0) {
 		if(sscanf(array,"G1 X%f Y%f A%d", &x, &y, &a)==3){
 			if (x <= 500 && x >= -500 && y <= 500 && y >= -500 && (a == 0 || a == 1)) {
 				valid = true;
@@ -159,18 +159,18 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 
 		}
-		else if (strcmp(code,"M1\n") == 0) {
+		else if (strcmp(code,"M1") == 0) {
 			double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*penPos);
 			servo->move(value);
 		}
-		else if (strcmp(code,"M4\n") == 0) {
+		else if (strcmp(code,"M4") == 0) {
 			laser->changeLaserPower(laserPwr);
 		}
 		else if (strcmp(code,"G28\n") == 0) {
 			driver->step(0, 0);
 
 		}
-		else if (strcmp(code,"G1\n") == 0) {
+		else if (strcmp(code,"G1") == 0) {
 			driver->step(x, y);
 
 		}

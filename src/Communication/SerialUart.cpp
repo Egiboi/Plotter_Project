@@ -59,15 +59,31 @@ SerialUart::SerialUart(){
 SerialUart::~SerialUart(){
 }
 void SerialUart::UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo) {
-	cfg1 = UartCreate();
+
+	LpcPinMap none = { .port = -1, .pin = -1};
+	LpcPinMap txpin1 = { .port = 0, .pin = 18 };
+	LpcPinMap rxpin1 = { .port = 0, .pin = 13 };
+	LpcUartConfig cfg1 = {
+			.pUART = LPC_USART0,
+			.speed = 115200,
+			.data = UART_CFG_DATALEN_8 | UART_CFG_PARITY_NONE | UART_CFG_STOPLEN_1,
+			.rs485 = false,
+			.tx = txpin1,
+			.rx = rxpin1,
+			.rts = none,
+			.cts = none
+	};
+	Chip_SWM_MovablePortPinAssign(SWM_SWO_O, 1, 2);
+
 	LpcUart vallox(cfg1);
 	vTaskDelay(50);
-
+	bool debug = false;
 	while (1) {
 		vallox.read(c);
 		if(c != EOF && c != '\n' && count < sizeof(str) && c != '\0') {
 			str[count] = c;
 			count++;
+
 		}
 		else if(c == '\n' || c == '\r' ){
 			str[count] = '\n';
@@ -75,13 +91,20 @@ void SerialUart::UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo) {
 
 			ITM_write(str);
 			GcodeParser parser(str);
-			parser.runCommand(xydriver, laser, servo, &vallox);
+			if(parser.runCommand(xydriver, laser, servo, &vallox)){
+				ITM_write("toimi\r\n");
+			}else{
+				ITM_write("ei toimi\r\n");
+			}
+
 			//do{}while(xSemaphoreTake(servo->sDone, 10) == pdFALSE||xSemaphoreTake(xydriver->xyDone, 10) == pdFALSE);
 			vallox.write("OK\r\n");
+
 			memset(str, 0, sizeof(str));
+			debug=!debug;
 			count = 0;
 		}
 
-		vTaskDelay(configTICK_RATE_HZ/100);
+		vTaskDelay(configTICK_RATE_HZ/500);
 	}
 }

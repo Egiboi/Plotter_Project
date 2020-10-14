@@ -79,12 +79,13 @@ int main(void)
 	prvSetupHardware();
 	driver= driverSetup();
 	laser = new Laser();
+	laser->changeLaserPower(0);
 	servo = new Servo();
 	//mutex = xSemaphoreCreateMutex();
 
 	/* LED1 toggle thread */
 	xTaskCreate(vLEDTask1, "vTaskLed1",
-				configMINIMAL_STACK_SIZE * 5, NULL, (tskIDLE_PRIORITY + 1UL),
+				configMINIMAL_STACK_SIZE * 10, NULL, (tskIDLE_PRIORITY + 1UL),
 				(TaskHandle_t *) NULL);
 
 	/* LED2 toggle thread */

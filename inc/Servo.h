@@ -20,8 +20,8 @@
 #include "ITM_write.h"
 #include "FreeRTOS.h"
 #include "semphr.h"
-#define hardMin 100
-#define hardMax 3000
+#define hardMin 1000
+#define hardMax 2000
 
 
 class Servo{

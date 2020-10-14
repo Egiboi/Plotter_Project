@@ -161,12 +161,12 @@ bool XYdriver::IRQHandler(void){
 
 	Chip_RIT_ClearIntStatus(LPC_RITIMER); // clear IRQ flag
 
-	bool minX = lim1->read() && (dX == dirXToOrigin);
-	bool maxX = lim2->read() && (dX == !dirXToOrigin);
-	bool minY = lim3->read() && (dY == dirYToOrigin);
-	bool maxY = lim4->read() && (dY == !dirYToOrigin);
+	bool minX = lim1->read();
+	bool maxX = lim2->read();
+	bool minY = lim3->read();
+	bool maxY = lim4->read();
 
-	if (minX || maxX || minY || maxY) {
+	if (!minX || !maxX || !minY || !maxY) {
         // motors hit limit switches, stop
         Chip_RIT_Disable(LPC_RITIMER);
         xSemaphoreGiveFromISR(sbRIT, &xHigherPriorityWoken);

@@ -13,6 +13,7 @@ Laser::Laser(int port_, int pin_): port(port_), pin(pin_) {
     LPC_SCT1->OUT[0].SET = (1 << 0); // event 0 will set SCTx_OUT0
     LPC_SCT1->OUT[0].CLR = (1 << 1); // event 1 will clear SCTx_OUT0
     LPC_SCT1->CTRL_L &= ~(1 << 2); // unhalt it by clearing bit 2 of CTRL reg
+
 }
 
 Laser::~Laser() {
