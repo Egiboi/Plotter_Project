@@ -196,7 +196,6 @@ bool XYdriver::IRQHandler(void){
 
 	return xHigherPriorityWoken;
 }
-<<<<<<< HEAD
 int XYdriver::limitSwitch(int sw){
 	switch(sw){
 	case 1:
@@ -215,8 +214,6 @@ int XYdriver::limitSwitch(int sw){
 	return -1;
 }
 
-=======
->>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 void XYdriver::RIT_start(int count, int pps)
 {
 	uint64_t cmp_value;
