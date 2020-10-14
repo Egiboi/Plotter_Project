@@ -1,4 +1,4 @@
 gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
 Main.cpp:49:13:void vLEDTask1(void*)	184	static
-Main.cpp:74:5:int main()	24	static
-Main.cpp:97:6:void RIT_IRQHandler()	8	static
+Main.cpp:77:5:int main()	24	static
+Main.cpp:100:6:void RIT_IRQHandler()	8	static
