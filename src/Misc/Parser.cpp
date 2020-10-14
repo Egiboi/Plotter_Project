@@ -158,14 +158,14 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 
 		}
-		else if (strcmp(code,"M1") == 0) {
+		else if (strcmp(code,"M1\n") == 0) {
 			double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*penPos);
 			servo->move(value);
 		}
-		else if (strcmp(code,"M4") == 0) {
+		else if (strcmp(code,"M4\n") == 0) {
 			laser->changeLaserPower(laserPwr);
 		}
-		else if (strcmp(code,"G28") == 0) {
+		else if (strcmp(code,"G28\n") == 0) {
 			driver->step(0, 0);
 
 		}
