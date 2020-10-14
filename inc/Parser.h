@@ -20,6 +20,7 @@ class GcodeParser {
 private:
 	float y,x;
 	int a, limUp, limDown, penPos, laserPwr;
+	char Cmnd[10];
 	bool valid;
 	char fullCommand[100];
 	char code[8];
