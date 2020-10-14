@@ -6,7 +6,6 @@ ritimer_15xx.h:151:20:void Chip_RIT_EnableCompClear(LPC_RITIMER_T*)	16	static
 ritimer_15xx.h:181:20:void Chip_RIT_ClearIntStatus(LPC_RITIMER_T*)	16	static
 XYdriver.cpp:10:1:XYdriver::XYdriver(DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*)	24	static
 <<<<<<< HEAD
-<<<<<<< HEAD
 XYdriver.cpp:24:1:XYdriver::~XYdriver()	16	static
 XYdriver.cpp:24:1:virtual XYdriver::~XYdriver()	16	static
 XYdriver.cpp:25:6:void XYdriver::calibration()	48	static
@@ -16,8 +15,6 @@ XYdriver.cpp:159:6:bool XYdriver::IRQHandler()	24	static
 XYdriver.cpp:199:5:int XYdriver::limitSwitch(int)	16	static
 XYdriver.cpp:217:6:void XYdriver::RIT_start(int, int)	40	static
 =======
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 XYdriver.cpp:23:1:XYdriver::~XYdriver()	16	static
 XYdriver.cpp:23:1:virtual XYdriver::~XYdriver()	16	static
 XYdriver.cpp:24:6:void XYdriver::calibration()	48	static
@@ -25,7 +22,4 @@ XYdriver.cpp:91:6:void XYdriver::step(float, float)	48	static
 XYdriver.cpp:128:6:bool XYdriver::IRQHandlerCali()	24	static
 XYdriver.cpp:157:6:bool XYdriver::IRQHandler()	24	static
 XYdriver.cpp:197:6:void XYdriver::RIT_start(int, int)	40	static
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi

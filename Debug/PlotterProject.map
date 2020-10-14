@@ -645,14 +645,11 @@ Discarded input sections
  .group         0x00000000        0xc ./src/Misc/Parser.o
  .group         0x00000000        0xc ./src/Misc/Parser.o
 <<<<<<< HEAD
-<<<<<<< HEAD
  .group         0x00000000        0xc ./src/Misc/Parser.o
  .group         0x00000000        0xc ./src/Misc/Parser.o
  .group         0x00000000        0xc ./src/Misc/Parser.o
 =======
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .text          0x00000000        0x0 ./src/Misc/Parser.o
  .data          0x00000000        0x0 ./src/Misc/Parser.o
  .bss           0x00000000        0x0 ./src/Misc/Parser.o
@@ -905,10 +902,7 @@ Discarded input sections
  .group         0x00000000        0xc ./src/Misc/Servo.o
  .group         0x00000000        0xc ./src/Misc/Servo.o
  .group         0x00000000        0xc ./src/Misc/Servo.o
-<<<<<<< HEAD
  .group         0x00000000        0xc ./src/Misc/Servo.o
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .text          0x00000000        0x0 ./src/Misc/Servo.o
  .data          0x00000000        0x0 ./src/Misc/Servo.o
  .bss           0x00000000        0x0 ./src/Misc/Servo.o
@@ -996,7 +990,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./src/Misc/Servo.o
  .debug_macro   0x00000000      0x402 ./src/Misc/Servo.o
 <<<<<<< HEAD
-<<<<<<< HEAD
  .debug_macro   0x00000000       0xb5 ./src/Misc/Servo.o
  .debug_macro   0x00000000       0xaa ./src/Misc/Servo.o
  .debug_macro   0x00000000       0x80 ./src/Misc/Servo.o
@@ -1006,10 +999,6 @@ Discarded input sections
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_macro   0x00000000      0x17c ./src/Misc/Servo.o
  .debug_macro   0x00000000       0x10 ./src/Misc/Servo.o
-=======
- .debug_macro   0x00000000      0x17c ./src/Misc/Servo.o
- .debug_macro   0x00000000       0x10 ./src/Misc/Servo.o
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_macro   0x00000000      0x409 ./src/Misc/Servo.o
  .debug_macro   0x00000000       0x10 ./src/Misc/Servo.o
  .debug_macro   0x00000000       0x16 ./src/Misc/Servo.o
@@ -1135,10 +1124,7 @@ Discarded input sections
                 0x00000000      0x23c ./src/Misc/XYdriver.o
  .text._ZN8XYdriver9RIT_startEii
                 0x00000000       0xb0 ./src/Misc/XYdriver.o
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_macro   0x00000000      0xb8c ./src/Misc/XYdriver.o
  .debug_macro   0x00000000      0x17b ./src/Misc/XYdriver.o
  .debug_macro   0x00000000       0x1c ./src/Misc/XYdriver.o
@@ -2939,11 +2925,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/Base/init.o
  .data          0x00000000        0x0 ./src/Base/init.o
  .bss           0x00000000        0x0 ./src/Base/init.o
-<<<<<<< HEAD
-=======
- .text.NVIC_SetPriority
-                0x00000000       0x54 ./src/Base/init.o
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .text.Chip_IOCON_PinMuxSet
                 0x00000000       0x2c ./src/Base/init.o
  .text.Chip_SWM_MovablePortPinAssign
@@ -3275,7 +3256,6 @@ Discarded input sections
  .group         0x00000000        0xc ./src/Main.o
  .group         0x00000000        0xc ./src/Main.o
 <<<<<<< HEAD
-<<<<<<< HEAD
  .group         0x00000000        0xc ./src/Main.o
  .group         0x00000000        0xc ./src/Main.o
  .group         0x00000000        0xc ./src/Main.o
@@ -3318,8 +3298,6 @@ Discarded input sections
  .group         0x00000000        0xc ./src/Main.o
 =======
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .text          0x00000000        0x0 ./src/Main.o
  .data          0x00000000        0x0 ./src/Main.o
  .bss           0x00000000        0x0 ./src/Main.o
@@ -3411,10 +3389,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x7e ./src/Main.o
  .debug_macro   0x00000000       0x10 ./src/Main.o
  .debug_macro   0x00000000       0x16 ./src/Main.o
-<<<<<<< HEAD
  .debug_macro   0x00000000       0x16 ./src/Main.o
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_macro   0x00000000       0xa0 ./src/Main.o
  .group         0x00000000        0xc C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
  .group         0x00000000        0xc C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
@@ -4265,17 +4240,8 @@ Discarded input sections
  .text          0x00000000        0x0 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
  .data          0x00000000        0x0 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
  .bss           0x00000000        0x0 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
-<<<<<<< HEAD
  .text.Chip_RIT_EnableCompClear
                 0x00000000       0x18 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
-=======
- .text.Chip_SYSCTL_PeriphReset
-                0x00000000       0x22 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
- .text.Chip_RIT_EnableCompClear
-                0x00000000       0x18 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
- .text.Chip_RIT_Init
-                0x00000000       0x22 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .text.Chip_RIT_DeInit
                 0x00000000       0x1c C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
  .text.Chip_RIT_SetCompareValue
@@ -8333,7 +8299,6 @@ Discarded input sections
  .ARM.exidx.text._ZSt14get_unexpectedv
                 0x00000000        0x8 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
  .debug_frame   0x00000000       0xb0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
-<<<<<<< HEAD
  .ARM.attributes
                 0x00000000       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
  .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_unex_handler.o)
@@ -8364,38 +8329,6 @@ Discarded input sections
                 0x00000000        0x8 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
  .debug_frame   0x00000000       0x40 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
  .ARM.attributes
-=======
- .ARM.attributes
-                0x00000000       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_unex_handler.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_unex_handler.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_unex_handler.o)
- .data._ZN10__cxxabiv120__unexpected_handlerE
-                0x00000000        0x4 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_unex_handler.o)
- .ARM.attributes
-                0x00000000       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_unex_handler.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .rodata.__cxa_pure_virtual.str1.4
-                0x00000000       0x1c c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .text.__cxa_pure_virtual
-                0x00000000       0x14 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .ARM.extab.text.__cxa_pure_virtual
-                0x00000000        0xc c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .ARM.exidx.text.__cxa_pure_virtual
-                0x00000000        0x8 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .rodata.__cxa_deleted_virtual.str1.4
-                0x00000000       0x1f c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .text.__cxa_deleted_virtual
-                0x00000000       0x14 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .ARM.extab.text.__cxa_deleted_virtual
-                0x00000000        0xc c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .ARM.exidx.text.__cxa_deleted_virtual
-                0x00000000        0x8 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .debug_frame   0x00000000       0x40 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
- .ARM.attributes
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                 0x00000000       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(pure.o)
  .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(si_class_type_info.o)
  .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(si_class_type_info.o)
@@ -11164,14 +11097,10 @@ END GROUP
                 0x02009000                __top_RAM2 = 0x2009000
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 .text           0x00000000    0x1014c
 =======
 .text           0x00000000     0xa5e4
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-.text           0x00000000     0xa5e4
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -11181,22 +11110,16 @@ END GROUP
                 0x000000fc                __section_table_start = .
                 0x000000fc                __data_section_table = .
 <<<<<<< HEAD
-<<<<<<< HEAD
                 0x000000fc        0x4 LONG 0x10154 LOADADDR (.data)
                 0x00000100        0x4 LONG 0x2000000 ADDR (.data)
                 0x00000104        0x4 LONG 0x9b0 SIZEOF (.data)
                 0x00000108        0x4 LONG 0x10154 LOADADDR (.data_RAM2)
 =======
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                 0x000000fc        0x4 LONG 0xa5ec LOADADDR (.data)
                 0x00000100        0x4 LONG 0x2000000 ADDR (.data)
                 0x00000104        0x4 LONG 0x9ac SIZEOF (.data)
                 0x00000108        0x4 LONG 0xa5ec LOADADDR (.data_RAM2)
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                 0x0000010c        0x4 LONG 0x2008000 ADDR (.data_RAM2)
                 0x00000110        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x00000114                __data_section_table_end = .
@@ -13323,28 +13246,20 @@ END GROUP
                 0x0000a5d8                _fini
  .fini          0x0000a5dc        0x8 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\crtn.o
                 0x0000a5e4                . = ALIGN (0x4)
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *crtend.o(.ctors)
 <<<<<<< HEAD
-<<<<<<< HEAD
                 0x0001014c                . = ALIGN (0x4)
 =======
                 0x0000a5e4                . = ALIGN (0x4)
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-                0x0000a5e4                . = ALIGN (0x4)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *crtend.o(.dtors)
-<<<<<<< HEAD
 <<<<<<< HEAD
                 0x0001014c                . = ALIGN (0x4)
 
@@ -13425,36 +13340,6 @@ END GROUP
                 0x0000a5ec        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-=======
-                0x0000a5e4                . = ALIGN (0x4)
-
-.glue_7         0x0000a5e4        0x0
- .glue_7        0x0000a5e4        0x0 linker stubs
-
-.glue_7t        0x0000a5e4        0x0
- .glue_7t       0x0000a5e4        0x0 linker stubs
-
-.vfp11_veneer   0x0000a5e4        0x0
- .vfp11_veneer  0x0000a5e4        0x0 linker stubs
-
-.v4_bx          0x0000a5e4        0x0
- .v4_bx         0x0000a5e4        0x0 linker stubs
-
-.iplt           0x0000a5e4        0x0
- .iplt          0x0000a5e4        0x0 ./src/Misc/DigitalIoPin.o
-
-.ARM.extab
- *(.ARM.extab* .gnu.linkonce.armextab.*)
-
-.ARM.exidx      0x0000a5e4        0x8
-                0x0000a5e4                __exidx_start = .
- *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000a5e4        0x8 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
- .ARM.exidx.text._ZdlPvj
-                0x0000a5ec        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
-                                  0x8 (size before relaxing)
- .ARM.exidx.text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                 0x0000a5ec        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
                 0x0000a5ec                __exidx_end = .
@@ -13467,10 +13352,7 @@ END GROUP
  .eh_frame      0x0000a5ec        0x0 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\crtbegin.o
 
 .data_RAM2      0x02008000        0x0 load address 0x0000a5ec
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2 = .)
                 [!provide]                PROVIDE (__start_data_Ram2_4 = .)
@@ -13492,14 +13374,10 @@ END GROUP
                 0x02000000                _end_uninit_RESERVED = .
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 .data           0x02000000      0x9b0 load address 0x00010154
 =======
 .data           0x02000000      0x9ac load address 0x0000a5ec
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-.data           0x02000000      0x9ac load address 0x0000a5ec
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  FILL mask 0xff
                 0x02000000                _data = .
                 [!provide]                PROVIDE (__start_data_RAM = .)
@@ -13535,17 +13413,12 @@ END GROUP
                 [!provide]                PROVIDE (__end_data_Ram0_16_32 = .)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 .igot.plt       0x020009b0        0x0 load address 0x00010b04
  .igot.plt      0x020009b0        0x0 ./src/Misc/DigitalIoPin.o
 =======
 .igot.plt       0x020009ac        0x0 load address 0x0000af98
  .igot.plt      0x020009ac        0x0 ./src/Misc/DigitalIoPin.o
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-.igot.plt       0x020009ac        0x0 load address 0x0000af98
- .igot.plt      0x020009ac        0x0 ./src/Misc/DigitalIoPin.o
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 
 .bss_RAM2       0x02008000        0x0
                 [!provide]                PROVIDE (__start_bss_RAM2 = .)
@@ -13716,7 +13589,6 @@ END GROUP
                 0xfdff735a                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x00000000                _image_start = LOADADDR (.text)
 <<<<<<< HEAD
-<<<<<<< HEAD
                 0x00010b04                _image_end = (LOADADDR (.data) + SIZEOF (.data))
                 0x00010b04                _image_size = (_image_end - _image_start)
 OUTPUT(PlotterProject.axf elf32-littlearm)
@@ -13803,8 +13675,6 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
 
 .debug_aranges  0x00000000     0x1178
 =======
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                 0x0000af98                _image_end = (LOADADDR (.data) + SIZEOF (.data))
                 0x0000af98                _image_size = (_image_end - _image_start)
 OUTPUT(PlotterProject.axf elf32-littlearm)
@@ -13892,10 +13762,7 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_abbrev  0x00006bb0       0x6b c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 
 .debug_aranges  0x00000000     0x1118
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_aranges
                 0x00000000       0x68 ./src/Misc/DigitalIoPin.o
  .debug_aranges
@@ -14130,10 +13997,7 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_ranges  0x00000ec8       0x10 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 
 .debug_macro    0x00000000    0x100a9
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_macro   0x00000000      0x26f ./src/Misc/DigitalIoPin.o
  .debug_macro   0x0000026f      0xb8c ./src/Misc/DigitalIoPin.o
  .debug_macro   0x00000dfb       0x1c ./src/Misc/DigitalIoPin.o
@@ -14218,7 +14082,6 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_macro   0x000048ca       0x35 ./src/Misc/Laser.o
  .debug_macro   0x000048ff      0x402 ./src/Misc/Laser.o
  .debug_macro   0x00004d01       0x10 ./src/Misc/Laser.o
-<<<<<<< HEAD
 <<<<<<< HEAD
  .debug_macro   0x00004d11      0x8c2 ./src/Misc/Parser.o
  .debug_macro   0x000055d3      0x17c ./src/Misc/Parser.o
@@ -14521,130 +14384,10 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
 
 .debug_str      0x00000000    0x333b4
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
- .debug_macro   0x00004d11      0x52d ./src/Misc/Servo.o
- .debug_macro   0x0000523e      0x1da ./src/Misc/Servo.o
- .debug_macro   0x00005418      0x3cd ./src/Misc/Servo.o
- .debug_macro   0x000057e5      0x563 ./src/Misc/XYdriver.o
- .debug_macro   0x00005d48      0x3ff ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00006147      0xaba ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00006c01      0x174 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00006d75       0x56 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00006dcb       0x22 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00006ded      0xa7d ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x0000786a       0x34 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x0000789e       0x35 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x000078d3      0x339 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00007c0c       0x43 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00007c4f       0xb6 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00007d05      0x129 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00007e2e       0x10 ./src/Misc/heap_lock_monitor.o
- .debug_macro   0x00007e3e      0x2a0 ./src/Communication/ITM_write.o
- .debug_macro   0x000080de      0x946 ./src/Communication/LpcUart.o
- .debug_macro   0x00008a24       0x3a ./src/Communication/LpcUart.o
- .debug_macro   0x00008a5e       0x27 ./src/Communication/LpcUart.o
- .debug_macro   0x00008a85       0x22 ./src/Communication/LpcUart.o
- .debug_macro   0x00008aa7       0x2c ./src/Communication/LpcUart.o
- .debug_macro   0x00008ad3       0x10 ./src/Communication/LpcUart.o
- .debug_macro   0x00008ae3      0x120 ./src/Communication/LpcUart.o
- .debug_macro   0x00008c03       0x16 ./src/Communication/LpcUart.o
- .debug_macro   0x00008c19       0x10 ./src/Communication/LpcUart.o
- .debug_macro   0x00008c29       0x41 ./src/Communication/LpcUart.o
- .debug_macro   0x00008c6a       0x40 ./src/Communication/LpcUart.o
- .debug_macro   0x00008caa       0x19 ./src/Communication/LpcUart.o
- .debug_macro   0x00008cc3       0x22 ./src/Communication/LpcUart.o
- .debug_macro   0x00008ce5      0x4eb ./src/Communication/cdc_main.o
- .debug_macro   0x000091d0       0x97 ./src/Communication/cdc_main.o
- .debug_macro   0x00009267       0xfd ./src/Communication/cdc_main.o
- .debug_macro   0x00009364       0x2e ./src/Communication/cdc_main.o
- .debug_macro   0x00009392       0x16 ./src/Communication/cdc_main.o
- .debug_macro   0x000093a8      0x140 ./src/Base/cr_cpp_config.o
- .debug_macro   0x000094e8      0x10e ./src/Base/cr_cpp_config.o
- .debug_macro   0x000095f6       0x94 ./src/Base/cr_cpp_config.o
- .debug_macro   0x0000968a       0x23 ./src/Base/cr_startup_lpc15xx.o
- .debug_macro   0x000096ad      0x4df ./src/Base/init.o
- .debug_macro   0x00009b8c      0x376 ./src/Base/sysinit.o
- .debug_macro   0x00009f02      0x4e4 ./src/Main.o
- .debug_macro   0x0000a3e6      0x3f3 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x0000a7d9      0xaae C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x0000b287      0x16f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x0000b3f6       0x12 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_macro   0x0000b408      0x414 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_macro   0x0000b81c      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_macro   0x0000ba7c      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_macro   0x0000bcdc      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_macro   0x0000bf3c      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_macro   0x0000c19c      0x151 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x0000c2ed       0x10 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_macro   0x0000c2fd      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
- .debug_macro   0x0000c55d      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sct_15xx.o)
- .debug_macro   0x0000c7bd      0x26c C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_macro   0x0000ca29      0x278 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_macro   0x0000cca1      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_macro   0x0000cf01      0x260 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_macro   0x0000d161      0x500 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x0000d661      0xab4 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x0000e115      0x10e C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x0000e223       0x8d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_macro   0x0000e2b0      0x56d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x0000e81d       0x91 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x0000e8ae       0x10 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x0000e8be       0x16 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_macro   0x0000e8d4      0x4cb C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
- .debug_macro   0x0000ed9f       0x97 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
- .debug_macro   0x0000ee36      0x491 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
- .debug_macro   0x0000f2c7      0x4ff C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
- .debug_macro   0x0000f7c6      0x46d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
- .debug_macro   0x0000fc33      0x476 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(list.o)
-
-.debug_line     0x00000000    0x168f3
- .debug_line    0x00000000      0x7aa ./src/Misc/DigitalIoPin.o
- .debug_line    0x000007aa      0xa08 ./src/Misc/Laser.o
- .debug_line    0x000011b2      0xd54 ./src/Misc/Servo.o
- .debug_line    0x00001f06     0x16dd ./src/Misc/XYdriver.o
- .debug_line    0x000035e3      0x97f ./src/Misc/heap_lock_monitor.o
- .debug_line    0x00003f62      0x6c4 ./src/Communication/ITM_write.o
- .debug_line    0x00004626     0x19bf ./src/Communication/LpcUart.o
- .debug_line    0x00005fe5      0xcbe ./src/Communication/cdc_main.o
- .debug_line    0x00006ca3      0x5be ./src/Base/cr_cpp_config.o
- .debug_line    0x00007261      0x177 ./src/Base/cr_startup_lpc15xx.o
- .debug_line    0x000073d8      0xc14 ./src/Base/init.o
- .debug_line    0x00007fec      0x724 ./src/Base/sysinit.o
- .debug_line    0x00008710      0xae1 ./src/Main.o
- .debug_line    0x000091f1      0xadd C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .debug_line    0x00009cce      0x91b C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .debug_line    0x0000a5e9      0x6d1 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .debug_line    0x0000acba      0xaf2 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .debug_line    0x0000b7ac      0x747 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .debug_line    0x0000bef3      0x64e C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .debug_line    0x0000c541      0x5fe C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .debug_line    0x0000cb3f      0x79d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
- .debug_line    0x0000d2dc      0x6de C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sct_15xx.o)
- .debug_line    0x0000d9ba      0x6b9 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .debug_line    0x0000e073      0x70e C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .debug_line    0x0000e781      0x72f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .debug_line    0x0000eeb0      0x939 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .debug_line    0x0000f7e9     0x13bb C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .debug_line    0x00010ba4     0x1ce5 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .debug_line    0x00012889      0xddf C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
- .debug_line    0x00013668      0x974 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
- .debug_line    0x00013fdc      0xada C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
- .debug_line    0x00014ab6      0x9c5 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
- .debug_line    0x0001547b      0xa27 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(list.o)
- .debug_line    0x00015ea2      0x1f7 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_line    0x00016099      0x1a9 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(close.o)
- .debug_line    0x00016242      0x2fc c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(fstat.o)
- .debug_line    0x0001653e      0x1aa c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(isatty.o)
- .debug_line    0x000166e8      0x1aa c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(lseek.o)
- .debug_line    0x00016892       0x61 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
-
-.debug_str      0x00000000    0x333b4
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_str     0x00000000     0xf7fc ./src/Misc/DigitalIoPin.o
                                0xf9f3 (size before relaxing)
  .debug_str     0x0000f7fc     0x7574 ./src/Misc/Laser.o
                               0x16ea3 (size before relaxing)
-<<<<<<< HEAD
 <<<<<<< HEAD
  .debug_str     0x00016d80     0x6412 ./src/Misc/Parser.o
                               0x1cfaf (size before relaxing)
@@ -14718,8 +14461,6 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
                                 0x63c (size before relaxing)
  .debug_str     0x00037aff       0x18 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 =======
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
  .debug_str     0x00016d70     0x3cb0 ./src/Misc/Servo.o
                               0x1ac24 (size before relaxing)
  .debug_str     0x0001aa20     0x155a ./src/Misc/XYdriver.o
@@ -14793,10 +14534,7 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_str     0x00033386       0x16 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(lseek.o)
                                 0x5e0 (size before relaxing)
  .debug_str     0x0003339c       0x18 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                                 0x194 (size before relaxing)
 
 .comment        0x00000000       0x79
@@ -14859,7 +14597,6 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
                 0x0000010e       0x2d ./src/Communication/LpcUart.o
  .ARM.attributes
                 0x0000013b       0x2d ./src/Communication/cdc_main.o
-<<<<<<< HEAD
  .ARM.attributes
                 0x00000168       0x2d ./src/Base/cr_cpp_config.o
  .ARM.attributes
@@ -15147,189 +14884,6 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_frame   0x00006b54       0x2c c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_fixunsdfdi.o)
  .debug_frame   0x00006b80       0x20 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
 =======
-=======
- .ARM.attributes
-                0x00000168       0x2d ./src/Base/cr_cpp_config.o
- .ARM.attributes
-                0x00000195       0x2d ./src/Base/cr_startup_lpc15xx.o
- .ARM.attributes
-                0x000001c2       0x2d ./src/Base/init.o
- .ARM.attributes
-                0x000001ef       0x2d ./src/Base/sysinit.o
- .ARM.attributes
-                0x0000021c       0x2d ./src/Main.o
- .ARM.attributes
-                0x00000249       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
- .ARM.attributes
-                0x00000276       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
- .ARM.attributes
-                0x000002a3       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
- .ARM.attributes
-                0x000002d0       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
- .ARM.attributes
-                0x000002fd       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
- .ARM.attributes
-                0x0000032a       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
- .ARM.attributes
-                0x00000357       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
- .ARM.attributes
-                0x00000384       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
- .ARM.attributes
-                0x000003b1       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sct_15xx.o)
- .ARM.attributes
-                0x000003de       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
- .ARM.attributes
-                0x0000040b       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
- .ARM.attributes
-                0x00000438       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
- .ARM.attributes
-                0x00000465       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
- .ARM.attributes
-                0x00000492       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
- .ARM.attributes
-                0x000004bf       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
- .ARM.attributes
-                0x000004ec       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
- .ARM.attributes
-                0x00000519       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
- .ARM.attributes
-                0x00000546       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
- .ARM.attributes
-                0x00000573       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
- .ARM.attributes
-                0x000005a0       0x2d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(list.o)
- .ARM.attributes
-                0x000005cd       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .ARM.attributes
-                0x000005ea       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .ARM.attributes
-                0x00000607       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .ARM.attributes
-                0x00000624       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
- .ARM.attributes
-                0x00000641       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .ARM.attributes
-                0x0000065e       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
- .ARM.attributes
-                0x0000068b       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_dvmd_tls.o)
- .ARM.attributes
-                0x000006a8       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-impure.o)
- .ARM.attributes
-                0x000006d5       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-init.o)
- .ARM.attributes
-                0x00000702       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-malloc.o)
- .ARM.attributes
-                0x0000072f       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-mallocr.o)
- .ARM.attributes
-                0x0000075c       0x1b c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-memcpy.o)
- .ARM.attributes
-                0x00000777       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-memset.o)
- .ARM.attributes
-                0x000007a4       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-printf.o)
- .ARM.attributes
-                0x000007d1       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reent.o)
- .ARM.attributes
-                0x000007fe       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-sbrkr.o)
- .ARM.attributes
-                0x0000082b       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-stdio.o)
- .ARM.attributes
-                0x00000858       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-strlen-stub.o)
- .ARM.attributes
-                0x00000885       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-vfprintf.o)
- .ARM.attributes
-                0x000008b2       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-writer.o)
- .ARM.attributes
-                0x000008df       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-wsetup.o)
- .ARM.attributes
-                0x0000090c       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-closer.o)
- .ARM.attributes
-                0x00000939       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-ctype_.o)
- .ARM.attributes
-                0x00000966       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-dtoa.o)
- .ARM.attributes
-                0x00000993       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-fflush.o)
- .ARM.attributes
-                0x000009c0       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-findfp.o)
- .ARM.attributes
-                0x000009ed       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-freer.o)
- .ARM.attributes
-                0x00000a1a       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-fwalk.o)
- .ARM.attributes
-                0x00000a47       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-locale.o)
- .ARM.attributes
-                0x00000a74       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-localeconv.o)
- .ARM.attributes
-                0x00000aa1       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-lock.o)
- .ARM.attributes
-                0x00000ace       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-lseekr.o)
- .ARM.attributes
-                0x00000afb       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-makebuf.o)
- .ARM.attributes
-                0x00000b28       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-mbtowc_r.o)
- .ARM.attributes
-                0x00000b55       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-memchr-stub.o)
- .ARM.attributes
-                0x00000b82       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-mprec.o)
- .ARM.attributes
-                0x00000baf       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-readr.o)
- .ARM.attributes
-                0x00000bdc       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-reallocr.o)
- .ARM.attributes
-                0x00000c09       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-s_frexp.o)
- .ARM.attributes
-                0x00000c36       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-strncpy.o)
- .ARM.attributes
-                0x00000c63       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-vfiprintf.o)
- .ARM.attributes
-                0x00000c90       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-wctomb_r.o)
- .ARM.attributes
-                0x00000cbd       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-callocr.o)
- .ARM.attributes
-                0x00000cea       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-fclose.o)
- .ARM.attributes
-                0x00000d17       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-fputwc.o)
- .ARM.attributes
-                0x00000d44       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-fstatr.o)
- .ARM.attributes
-                0x00000d71       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-fvwrite.o)
- .ARM.attributes
-                0x00000d9e       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-isattyr.o)
- .ARM.attributes
-                0x00000dcb       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-memmove.o)
- .ARM.attributes
-                0x00000df8       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-wbuf.o)
- .ARM.attributes
-                0x00000e25       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-wcrtomb.o)
- .ARM.attributes
-                0x00000e52       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(del_ops.o)
- .ARM.attributes
-                0x00000e7f       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_alloc.o)
- .ARM.attributes
-                0x00000eac       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
- .ARM.attributes
-                0x00000ed9       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(close.o)
- .ARM.attributes
-                0x00000f06       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(fstat.o)
- .ARM.attributes
-                0x00000f33       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(isatty.o)
- .ARM.attributes
-                0x00000f60       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(lseek.o)
- .ARM.attributes
-                0x00000f8d       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
- .ARM.attributes
-                0x00000fba       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\crti.o
- .ARM.attributes
-                0x00000fd7       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\crtn.o
- .ARM.attributes
-                0x00000ff4       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\crtbegin.o
- .ARM.attributes
-                0x00001021       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
- .ARM.attributes
-                0x0000103e       0x1d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
- .ARM.attributes
-                0x0000105b       0x2d c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
-
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 .debug_frame    0x00000000     0x52d4
  .debug_frame   0x00000000      0x190 ./src/Misc/DigitalIoPin.o
  .debug_frame   0x00000190       0xc8 ./src/Misc/Laser.o
@@ -15422,10 +14976,7 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_frame   0x00005270       0x20 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
  .debug_frame   0x00005290       0x24 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
  .debug_frame   0x000052b4       0x20 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(lib_a-errno.o)
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 
 .debug_loc      0x00000000      0x137
  .debug_loc     0x00000000       0x5c c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
@@ -15527,10 +15078,7 @@ Chip_RIT_GetCompareValue                          C:\Users\danie\Documents\Koulu
 Chip_RIT_GetCounter                               C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
 Chip_RIT_GetMaskValue                             C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
 Chip_RIT_Init                                     C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
-<<<<<<< HEAD
                                                   ./src/Base/init.o
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 Chip_RIT_SetCTRL                                  C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
                                                   ./src/Misc/XYdriver.o
 Chip_RIT_SetCompareValue                          C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
@@ -15641,7 +15189,6 @@ FreeRTOSDelay                                     C:\Users\danie\Documents\Koulu
 GINT0_IRQHandler                                  ./src/Base/cr_startup_lpc15xx.o
 GINT1_IRQHandler                                  ./src/Base/cr_startup_lpc15xx.o
 <<<<<<< HEAD
-<<<<<<< HEAD
 GcodeParser::GcodeParser(char*)                   ./src/Misc/Parser.o
                                                   ./src/Communication/SerialUart.o
 GcodeParser::GcodeParser(char*)                   ./src/Misc/Parser.o
@@ -15652,11 +15199,6 @@ GcodeParser::GcodeParser(std::__cxx11::basic_string<char, std::char_traits<char>
 GcodeParser::GcodeParser(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ./src/Misc/Parser.o
 GcodeParser::runCommand(XYdriver*, Laser*, Servo*) ./src/Misc/Parser.o
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-GcodeParser::GcodeParser(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ./src/Misc/Parser.o
-GcodeParser::GcodeParser(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ./src/Misc/Parser.o
-GcodeParser::runCommand(XYdriver*, Laser*, Servo*) ./src/Misc/Parser.o
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 GcodeParser::~GcodeParser()                       ./src/Misc/Parser.o
 GcodeParser::~GcodeParser()                       ./src/Misc/Parser.o
 GcodeParser::~GcodeParser()                       ./src/Misc/Parser.o
@@ -15745,16 +15287,12 @@ SVC_Handler                                       C:\Users\danie\Documents\Koulu
 SerialUart::SerialUart()                          ./src/Communication/SerialUart.o
 SerialUart::SerialUart()                          ./src/Communication/SerialUart.o
 <<<<<<< HEAD
-<<<<<<< HEAD
                                                   ./src/Main.o
 SerialUart::UartReceive(XYdriver*, Laser*, Servo*) ./src/Communication/SerialUart.o
                                                   ./src/Main.o
 =======
 SerialUart::UartReceive()                         ./src/Communication/SerialUart.o
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-SerialUart::UartReceive()                         ./src/Communication/SerialUart.o
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 SerialUart::~SerialUart()                         ./src/Communication/SerialUart.o
 SerialUart::~SerialUart()                         ./src/Communication/SerialUart.o
 SerialUart::~SerialUart()                         ./src/Communication/SerialUart.o
@@ -16924,13 +16462,8 @@ std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >:
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::back() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::back() const c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
-<<<<<<< HEAD
                                                   ./src/Communication/SerialUart.o
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
-=======
-std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string() c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
-                                                  ./src/Communication/SerialUart.o
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
                                                   ./src/Communication/SerialUart.o
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(string-inst.o)
@@ -17146,10 +16679,7 @@ std::bad_typeid::~bad_typeid()                    c:/nxp/mcuxpressoide_11.2.0_41
 std::bad_typeid::~bad_typeid()                    c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::bad_typeid::~bad_typeid()                    c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
-<<<<<<< HEAD
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
@@ -17158,7 +16688,6 @@ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_st
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
@@ -17167,26 +16696,14 @@ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_st
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-=======
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::initializer_list<char>, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::initializer_list<char>, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
-<<<<<<< HEAD
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
-=======
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned int, std::allocator<char> const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
@@ -17216,7 +16733,6 @@ std::domain_error::domain_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_
 std::domain_error::domain_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::domain_error::~domain_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::domain_error::~domain_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-<<<<<<< HEAD
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::domain_error::~domain_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
@@ -17227,28 +16743,16 @@ std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_41
 std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 =======
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-std::domain_error::~domain_error()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-std::exception::what() const                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
-std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_typeid.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_cast.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(bad_alloc.o)
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
-std::exception::~exception()                      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_exception.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::get_terminate()                              c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_throw.o)
 std::get_unexpected()                             c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
@@ -17260,7 +16764,6 @@ std::invalid_argument::invalid_argument(std::string const&) c:/nxp/mcuxpressoide
 std::invalid_argument::invalid_argument(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-<<<<<<< HEAD
 std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
@@ -17268,11 +16771,6 @@ std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_41
 =======
 std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-std::invalid_argument::~invalid_argument()        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::length_error::length_error(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::length_error::length_error(char const*)      c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
@@ -17315,13 +16813,8 @@ std::out_of_range::~out_of_range()                c:/nxp/mcuxpressoide_11.2.0_41
 std::out_of_range::~out_of_range()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::out_of_range::~out_of_range()                c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::overflow_error::overflow_error(char const*)  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-<<<<<<< HEAD
 std::overflow_error::overflow_error(char const*)  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-=======
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-std::overflow_error::overflow_error(char const*)  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::overflow_error::overflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::overflow_error::overflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::overflow_error::~overflow_error()            c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
@@ -17332,13 +16825,8 @@ std::overflow_error::~overflow_error()            c:/nxp/mcuxpressoide_11.2.0_41
 std::random_device::_M_init(std::string const&)   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::random_device::_M_init_pretr1(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-string-inst.o)
 std::range_error::range_error(char const*)        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-<<<<<<< HEAD
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::range_error::range_error(char const*)        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-=======
-std::range_error::range_error(char const*)        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::range_error::range_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::range_error::range_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::range_error::~range_error()                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
@@ -17557,7 +17045,6 @@ std::type_info::~type_info()                      c:/nxp/mcuxpressoide_11.2.0_41
 std::uncaught_exception()                         c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_catch.o)
 std::uncaught_exceptions()                        c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_catch.o)
 std::underflow_error::underflow_error(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-<<<<<<< HEAD
 std::underflow_error::underflow_error(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::underflow_error::underflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
@@ -17569,21 +17056,11 @@ std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_41
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 =======
-=======
-                                                  c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
-std::underflow_error::underflow_error(char const*) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
-std::underflow_error::underflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::underflow_error::underflow_error(std::string const&) c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(cow-stdexcept.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(functexcept.o)
 std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
 std::underflow_error::~underflow_error()          c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(stdexcept.o)
-<<<<<<< HEAD
 >>>>>>> parent of 59b5521... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
-=======
->>>>>>> parent of fd8aefd... Merge branch 'Testi' of https://github.com/Egiboi/Plotter_Project into Testi
 std::unexpected()                                 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_terminate.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_call.o)
                                                   c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++.a(eh_personality.o)
