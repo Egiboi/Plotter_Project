@@ -1,5 +1,5 @@
 swm_15xx.h:232:20:void Chip_SWM_MovablePortPinAssign(CHIP_SWM_PIN_MOVABLE_T, uint8_t, uint8_t)	16	static
 Servo.cpp:8:1:Servo::Servo(int, int)	24	static
-Servo.cpp:25:6:void Servo::move(double)	32	static
-Servo.cpp:41:1:Servo::~Servo()	16	static
-Servo.cpp:41:1:virtual Servo::~Servo()	16	static
+Servo.cpp:26:6:void Servo::move(double)	32	static
+Servo.cpp:42:1:Servo::~Servo()	16	static
+Servo.cpp:42:1:virtual Servo::~Servo()	16	static
