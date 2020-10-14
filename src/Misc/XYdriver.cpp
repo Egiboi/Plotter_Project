@@ -24,7 +24,7 @@ XYdriver::XYdriver(DigitalIoPin* dirX, DigitalIoPin* stepX, DigitalIoPin* lim1, 
 XYdriver::~XYdriver(){}
 void XYdriver::calibration(){
 	int pps = 500, count = 0, rcount = 0, sum = 0;
-	dirX->write(0);
+	dirX->write(!dirX->read());
 	xState = true;
 	while(!lim1->read() && !lim2->read() && !lim3->read() && !lim4->read()){
 		Board_LED_Set(2,true);
@@ -33,12 +33,12 @@ void XYdriver::calibration(){
 	}
 	for(int i = 0; i < 2; i++){
 		dirX->write(!dirX->read());
-		while(lim2->read()){
+		while(lim3->read()){
 			RIT_start(2,1000000/(pps*2));
 			while(!lim1->read() && !lim2->read()) vTaskDelay(configTICK_RATE_HZ*5);
 		}
 		dirX->write(!dirX->read());
-		while(lim1->read()){
+		while(lim4->read()){
 			RIT_start(2,1000000/(pps*2));
 			count++;
 			while(!lim2->read() && !lim1->read()) vTaskDelay(configTICK_RATE_HZ*5);
@@ -56,12 +56,12 @@ void XYdriver::calibration(){
 	yState = true;
 	for(int i = 0; i < 2; i++){
 		dirY->write(!dirY->read());
-		while(lim3->read()){
+		while(lim1->read()){
 			RIT_start(2,1000000/(pps*2));
 			while(!lim3->read() && !lim4->read()) vTaskDelay(configTICK_RATE_HZ*5);
 		}
 		dirY->write(!dirY->read());
-		while(lim4->read()){
+		while(lim2->read()){
 			RIT_start(2,1000000/(pps*2));
 			count++;
 			while(!lim3->read() && !lim4->read()) vTaskDelay(configTICK_RATE_HZ*5);
@@ -75,7 +75,7 @@ void XYdriver::calibration(){
 	yState = false;
 
 	xState = true;
-	dirX->write(1);
+	dirX->write(!dirX->read());
 	RIT_start(totalStepsX,1000000/(pps*2));
 	xState = false;
 

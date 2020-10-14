@@ -17,6 +17,9 @@ void prvSetupHardware()
 	ITM_init();
 	Chip_PININT_Init(LPC_GPIO_PIN_INT);
 	vConfigureTimerForRunTimeStats();
+	Chip_RIT_Init(LPC_RITIMER);
+	// set the priority level of the interrupt
+	NVIC_SetPriority(RITIMER_IRQn, configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY + 1);
 
 	/* Initial LED0 state is off */
 	Board_LED_Set(0, false);

@@ -20,13 +20,14 @@ GcodeParser::GcodeParser(char *str) {
 	}
 	x=0;
 	int i = 0;
-	while (str[i+1] != ' '&& strlen(str)>i) {
+	while (str[i] != ' '&& strlen(str)>i) {
 		i++;
 	}
 
 	for(int j = 0; j < i; ++j){
 		code[j] = str[j];
-		code[j+1] = '\0';
+		code[j+1] = '\n';
+		code[j+2] = '\0';
 	}
 
 	char array[50]= {};
