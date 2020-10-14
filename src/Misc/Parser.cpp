@@ -106,10 +106,9 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 	if(valid==true){
 		char buffer[40]={};
-
 		if (strcmp(code,"M10\n") == 0) {
 			//Send init values
-			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\n");
+			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\nOK\r\n");
 		}
 		else if (strcmp(code,"M11") == 0) {
 			int state1=-1,state2=-1,state3=-1,state4=-1;
@@ -140,7 +139,7 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
             else if(!driver->limitSwitch(1)){
                 state1 = 0;
             }
-            sprintf(buffer,"M11 %d %d %d %d\r\n",state4, state3, state2 , state1);
+            sprintf(buffer,"M11 %d %d %d %d\r\nOK\r\n",state4, state3, state2 , state1);
             vallox->write(buffer);
 
 		}
