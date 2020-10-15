@@ -12731,82 +12731,82 @@ OUTPUT(PlotterProject.axf elf32-littlearm)
  .debug_line    0x00019a5c      0x1f7 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
  .debug_line    0x00019c53       0x61 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_str      0x00000000    0x37b18
+.debug_str      0x00000000    0x37b17
  .debug_str     0x00000000     0xf7fc ./src/Misc/DigitalIoPin.o
                                0xf9f3 (size before relaxing)
  .debug_str     0x0000f7fc     0x7584 ./src/Misc/Laser.o
                               0x16ea3 (size before relaxing)
- .debug_str     0x00016d80     0x6413 ./src/Misc/Parser.o
-                              0x1cfb0 (size before relaxing)
- .debug_str     0x0001d193     0x1465 ./src/Misc/Servo.o
-                              0x1bb1f (size before relaxing)
- .debug_str     0x0001e5f8      0x6fe ./src/Misc/XYdriver.o
+ .debug_str     0x00016d80     0x6412 ./src/Misc/Parser.o
+                              0x1cfaf (size before relaxing)
+ .debug_str     0x0001d192     0x1465 ./src/Misc/Servo.o
+                              0x1bb1e (size before relaxing)
+ .debug_str     0x0001e5f7      0x6fe ./src/Misc/XYdriver.o
                               0x1ba6a (size before relaxing)
- .debug_str     0x0001ecf6      0x600 ./src/Misc/heap_lock_monitor.o
+ .debug_str     0x0001ecf5      0x600 ./src/Misc/heap_lock_monitor.o
                               0x167b6 (size before relaxing)
- .debug_str     0x0001f2f6       0xb8 ./src/Communication/Fmutex.o
+ .debug_str     0x0001f2f5       0xb8 ./src/Communication/Fmutex.o
                               0x18402 (size before relaxing)
- .debug_str     0x0001f3ae      0x1dc ./src/Communication/ITM_write.o
+ .debug_str     0x0001f3ad      0x1dc ./src/Communication/ITM_write.o
                                0xf9f8 (size before relaxing)
- .debug_str     0x0001f58a     0x7967 ./src/Communication/LpcUart.o
+ .debug_str     0x0001f589     0x7967 ./src/Communication/LpcUart.o
                               0x250b0 (size before relaxing)
- .debug_str     0x00026ef1     0x4a31 ./src/Communication/SerialUart.o
-                              0x25937 (size before relaxing)
- .debug_str     0x0002b922     0x61da ./src/Communication/cdc_main.o
+ .debug_str     0x00026ef0     0x4a31 ./src/Communication/SerialUart.o
+                              0x25936 (size before relaxing)
+ .debug_str     0x0002b921     0x61da ./src/Communication/cdc_main.o
                               0x1dd96 (size before relaxing)
- .debug_str     0x00031afc       0xdb ./src/Base/cr_cpp_config.o
+ .debug_str     0x00031afb       0xdb ./src/Base/cr_cpp_config.o
                                0x804a (size before relaxing)
- .debug_str     0x00031bd7      0x1f7 ./src/Base/cr_startup_lpc15xx.o
+ .debug_str     0x00031bd6      0x1f7 ./src/Base/cr_startup_lpc15xx.o
                                0x3426 (size before relaxing)
- .debug_str     0x00031dce      0x667 ./src/Base/init.o
-                              0x1987e (size before relaxing)
- .debug_str     0x00032435       0x16 ./src/Base/sysinit.o
+ .debug_str     0x00031dcd      0x667 ./src/Base/init.o
+                              0x1987d (size before relaxing)
+ .debug_str     0x00032434       0x16 ./src/Base/sysinit.o
                               0x129ba (size before relaxing)
- .debug_str     0x0003244b       0x29 ./src/Main.o
-                              0x21dbd (size before relaxing)
- .debug_str     0x00032474      0x373 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
+ .debug_str     0x0003244a       0x29 ./src/Main.o
+                              0x21dbc (size before relaxing)
+ .debug_str     0x00032473      0x373 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board.o)
                               0x13f6c (size before relaxing)
- .debug_str     0x000327e7      0x40d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
+ .debug_str     0x000327e6      0x40d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_board_nxp_lpcxpresso_1549\Debug\liblpc_board_nxp_lpcxpresso_1549.a(board_sysinit.o)
                               0x1459c (size before relaxing)
- .debug_str     0x00032bf4      0x149 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
+ .debug_str     0x00032bf3      0x149 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(chip_15xx.o)
                                0xfdd6 (size before relaxing)
- .debug_str     0x00032d3d      0x88f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
+ .debug_str     0x00032d3c      0x88f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(clock_15xx.o)
                               0x101f1 (size before relaxing)
- .debug_str     0x000335cc       0xd0 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
+ .debug_str     0x000335cb       0xd0 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(gpio_15xx.o)
                                0xf893 (size before relaxing)
- .debug_str     0x0003369c       0x41 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
+ .debug_str     0x0003369b       0x41 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(iocon_15xx.o)
                                0xf3b0 (size before relaxing)
- .debug_str     0x000336dd      0x114 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
+ .debug_str     0x000336dc      0x114 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ring_buffer.o)
                                0x6fdf (size before relaxing)
- .debug_str     0x000337f1       0xff C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
+ .debug_str     0x000337f0       0xff C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(ritimer_15xx.o)
                                0xf8d8 (size before relaxing)
- .debug_str     0x000338f0       0xb4 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sct_15xx.o)
+ .debug_str     0x000338ef       0xb4 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sct_15xx.o)
                                0xf9c9 (size before relaxing)
- .debug_str     0x000339a4      0x55d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
+ .debug_str     0x000339a3      0x55d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(swm_15xx.o)
                                0xfdb8 (size before relaxing)
- .debug_str     0x00033f01      0x183 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
+ .debug_str     0x00033f00      0x183 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysctl_15xx.o)
                                0xf89e (size before relaxing)
- .debug_str     0x00034084      0x13f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
+ .debug_str     0x00034083      0x13f C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(sysinit_15xx.o)
                                0xf88c (size before relaxing)
- .debug_str     0x000341c3      0x1a1 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
+ .debug_str     0x000341c2      0x1a1 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\lpc_chip_15xx\Debug\liblpc_chip_15xx.a(uart_15xx.o)
                                0xf9ef (size before relaxing)
- .debug_str     0x00034364      0xa53 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
+ .debug_str     0x00034363      0xa53 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(queue.o)
                               0x184c8 (size before relaxing)
- .debug_str     0x00034db7     0x1ecc C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
+ .debug_str     0x00034db6     0x1ecc C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(tasks.o)
                               0x19537 (size before relaxing)
- .debug_str     0x00036c83      0x52d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
+ .debug_str     0x00036c82      0x52d C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(timers.o)
                               0x1890c (size before relaxing)
- .debug_str     0x000371b0       0x61 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
+ .debug_str     0x000371af       0x61 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(heap_3.o)
                               0x17230 (size before relaxing)
- .debug_str     0x00037211      0x5fe C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
+ .debug_str     0x00037210      0x5fe C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(port.o)
                               0x1793c (size before relaxing)
- .debug_str     0x0003780f       0xc4 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
+ .debug_str     0x0003780e       0xc4 C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(FreeRTOSCommonHooks.o)
                               0x171c1 (size before relaxing)
- .debug_str     0x000378d3       0x9b C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(list.o)
+ .debug_str     0x000378d2       0x9b C:\Users\danie\Documents\Koulu\Vuosi 3\Periodi 1\ARM\MCU\FreeRTOS\Debug\libFreeRTOS.a(list.o)
                               0x16c45 (size before relaxing)
- .debug_str     0x0003796e      0x192 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_str     0x0003796d      0x192 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_sbrk.o)
                                 0x63c (size before relaxing)
- .debug_str     0x00037b00       0x18 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_str     0x00037aff       0x18 c:/nxp/mcuxpressoide_11.2.0_4120/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202001021529/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_newlib_nohost.a(_cr_check_heap.o)
                                 0x194 (size before relaxing)
 
 .comment        0x00000000       0x79
