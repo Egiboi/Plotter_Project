@@ -87,7 +87,7 @@ GcodeParser::GcodeParser(char *str) {
 	}
 	else if (strcmp("G1", code) == 0) {
 		if(sscanf(array,"G1 X%f Y%f A%d", &x, &y, &a)==3){
-			if (x <= 500 && x >= -500 && y <= 500 && y >= -500 && (a == 0 || a == 1)) {
+			if (x <= 500 && x >= -500 && y <= 500 && y >= -500 && (a == 0 || a == 5000)) {
 				valid = true;
 			} else {
 				valid = false;
