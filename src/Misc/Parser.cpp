@@ -13,7 +13,7 @@
 #include "init.h"
 using namespace std;
 
-GcodeParser::GcodeParser(char *str) {
+GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 
 	if(strlen(str)<sizeof(fullCommand)/sizeof(char)){
 		strcpy(fullCommand,str);
@@ -87,7 +87,7 @@ GcodeParser::GcodeParser(char *str) {
 	}
 	else if (strcmp("G1", code) == 0) {
 		if(sscanf(array,"G1 X%f Y%f A%d", &x, &y, &a)==3){
-			if (x <= 500 && x >= -500 && y <= 500 && y >= -500 && (a == 0 || a == 5000)) {
+			if (x <= xydriver->totalStepsX && x >= 0 && y <= xydriver->totalStepsY && y >= 0 && (a == 0 || a == 1)) {
 				valid = true;
 			} else {
 				valid = false;

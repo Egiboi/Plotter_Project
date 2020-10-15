@@ -26,7 +26,7 @@ private:
 
 
 public:
-	GcodeParser(char *str);
+	GcodeParser(char *str,XYdriver *xydriver);
 	virtual ~GcodeParser();
 	bool runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUart *vallox);
 };

@@ -90,7 +90,7 @@ void SerialUart::UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo) {
 			str[count+1] = '\0';
 
 			ITM_write(str);
-			GcodeParser parser(str);
+			GcodeParser parser(str,xydriver);
 			if(parser.runCommand(xydriver, laser, servo, &vallox)){
 				ITM_write("toimi\r\n");
 			}else{
