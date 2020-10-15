@@ -109,7 +109,9 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 		if (strcmp(code,"M10\n") == 0) {
 			//Send init values
-			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\n");
+			sprintf(buffer,"M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U160 D90\r\n",driver->totalStepsX,driver->totalStepsY);
+			vallox->write(buffer);
+
 		}
 		else if (strcmp(code,"M11") == 0) {
 			int state1=-1,state2=-1,state3=-1,state4=-1;
