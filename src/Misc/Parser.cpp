@@ -183,4 +183,7 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 	}
 
 }
+bool GcodeParser::getValid(){
+	return valid;
+}
 

@@ -43,19 +43,36 @@
 XYdriver *driver;
 Laser *laser;
 Servo *servo;
+QueueHandle_t xQueue;
+
 
 
 /* LED1 toggle thread */
-static void vLEDTask1(void *pvParameters) {
+static void vTaskReceive(void *pvParameters) {
 	SerialUart read;
 	while (1) {
 		if(driver->calibrate){
 			driver->calibration();
 		}
-		read.UartReceive(driver,laser,servo);
+		read.UartReceive(driver,laser,servo,xQueue);
+
 	}
 }
 
+
+static void vTaskExecute(void *pvParameters) {
+	GcodeParser parser(NULL,NULL);
+	while (1) {
+
+		if(xQueueReceive(xQueue,&parser,portMAX_DELAY)==pdTRUE){
+			if(parser.runCommand(driver, laser, servo)){
+				ITM_write("toimi\r\n");
+			}else{
+				ITM_write("ei toimi\r\n");
+			}
+		}
+	}
+}
 /* LED2 toggle thread */
 
 
@@ -83,9 +100,21 @@ int main(void)
 	servo = new Servo();
 	//mutex = xSemaphoreCreateMutex();
 
+	xQueue = xQueueCreate(20, sizeof(GcodeParser));
+
+	if(xQueue == NULL){
+		while(1){
+			vTaskDelay(100);
+			//Memory allocation fail
+		}
+	}
 	/* LED1 toggle thread */
-	xTaskCreate(vLEDTask1, "vTaskLed1",
-				configMINIMAL_STACK_SIZE * 10, NULL, (tskIDLE_PRIORITY + 1UL),
+	xTaskCreate(vTaskReceive, "vTaskReceive",
+				configMINIMAL_STACK_SIZE * 8, NULL, (tskIDLE_PRIORITY + 1UL),
+				(TaskHandle_t *) NULL);
+
+	xTaskCreate(vTaskExecute, "vTaskExecute",
+				configMINIMAL_STACK_SIZE * 5, NULL, (tskIDLE_PRIORITY + 1UL),
 				(TaskHandle_t *) NULL);
 
 	/* LED2 toggle thread */

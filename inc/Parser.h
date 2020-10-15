@@ -12,6 +12,7 @@
 #include "Laser.h"
 #include "Servo.h"
 #include "init.h"
+#include "LpcUart.h"
 using namespace std;
 
 
@@ -22,13 +23,15 @@ private:
 	int a, limUp, limDown, penPos, laserPwr;
 	bool valid;
 	char fullCommand[100];
-	char code[8];
+
 
 
 public:
+	bool getValid(void);
+	char code[8];
 	GcodeParser(char *str,XYdriver *xydriver);
 	virtual ~GcodeParser();
-	bool runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUart *vallox);
+	bool runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUart *vallox =NULL);
 };
 
 

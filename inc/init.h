@@ -23,6 +23,7 @@
 #include "DigitalIoPin.h"
 #include "Laser.h"
 #include "Servo.h"
+#include "Parser.h"
 #include "LpcUart.h"
 
 //Stepper motor port and pins

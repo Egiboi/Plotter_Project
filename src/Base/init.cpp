@@ -102,6 +102,11 @@ LpcUartConfig UartCreate(){
 		return cfg1;
 }
 
+
+struct data{
+	char dataStr[80];
+};
+
 extern "C" {
 
 void vConfigureTimerForRunTimeStats( void ) {

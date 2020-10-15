@@ -15,11 +15,10 @@ class SerialUart{
 public:
 	SerialUart();
 	virtual ~SerialUart();
-	void UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo);
+	void UartReceive(XYdriver *xydriver, Laser *laser, Servo *servo, QueueHandle_t xQueue);
 	LpcUartConfig cfg1;
 
 private:
-	std::string whole;
 	char str[80];
 	uint count;
 	char c;
