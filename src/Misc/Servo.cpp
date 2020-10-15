@@ -13,7 +13,7 @@ Servo::Servo(int port0, int pin0): port(port0), pin(pin0){
 	LPC_SCT0->CONFIG |= (1 << 17);              // two 16-bit timers, auto limit
 	LPC_SCT0->CTRL_L |= (72 - 1) << 5;          // set prescaler, SCTimer/PWM clock = 1 MHz
 	LPC_SCT0->MATCHREL[0].L = 20000 - 1;     	// match 0 @ 1000/1MHz = (1 kHz PWM freq)
-	LPC_SCT0->MATCHREL[1].L = 1500;        		// match 1 used for duty cycle (in 10 steps)
+	LPC_SCT0->MATCHREL[1].L = 1650;        		// match 1 used for duty cycle (in 10 steps)
 	LPC_SCT0->EVENT[0].STATE = 0xFFFFFFFF;      // event 0 happens in all states
 	LPC_SCT0->EVENT[0].CTRL = (1 << 12);        // match 0 condition only
 	LPC_SCT0->EVENT[1].STATE = 0xFFFFFFFF;      // event 1 happens in all states
