@@ -87,7 +87,7 @@ GcodeParser::GcodeParser(char *str) {
 	}
 	else if (strcmp("G1", code) == 0) {
 		if(sscanf(array,"G1 X%f Y%f A%d", &x, &y, &a)==3){
-			if (x <= 500 && x >= -500 && y <= 500 && y >= -500 && (a == 0 || a == 1)) {
+			if (x <= 500 && x >= -500 && y <= 500 && y >= -500 && (a == 0 || a == 5000)) {
 				valid = true;
 			} else {
 				valid = false;
@@ -109,7 +109,9 @@ bool GcodeParser::runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUar
 
 		if (strcmp(code,"M10\n") == 0) {
 			//Send init values
-			vallox->write("M10 XY 380 310 0.00 0.00 A0 B0 H0 S80 U160 D90\r\n");
+			sprintf(buffer,"M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U160 D90\r\n",driver->totalStepsX,driver->totalStepsY);
+			vallox->write(buffer);
+
 		}
 		else if (strcmp(code,"M11") == 0) {
 			int state1=-1,state2=-1,state3=-1,state4=-1;
