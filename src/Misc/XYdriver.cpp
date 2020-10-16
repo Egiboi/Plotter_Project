@@ -114,10 +114,10 @@ void XYdriver::step(float x, float y){
 	}
 
 	p = 2 * totalFolSteps - totalLeadSteps;
-
-	while(currentLeadSteps < totalLeadSteps){
-		RIT_start(2,1000000/(pps*2));
-	}
+	int steps = totalLeadSteps - currentLeadSteps;
+	//while(currentLeadSteps < totalLeadSteps){
+		RIT_start(steps*2,1000000/(pps*2));
+	//}
 	xSemaphoreGive(xyDone);
 	if (abs(dx) > abs(dy)) {
 		currentX = (dX == dirXToOrigin) ? (currentX - currentLeadSteps) : (currentX + currentLeadSteps);
