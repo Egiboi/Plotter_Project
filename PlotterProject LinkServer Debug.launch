@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.crt.dsfdebug.crtmcu.launchType">
 <stringAttribute key=".gdbinit" value=""/>
+<stringAttribute key="InstructionTraceInfo" value="eJzFVl1v2jAUfZ+0/xDlvYMATalUVhnHjGj5ku201V4sF1zKGhKWOG337+d8QAu4LdImjQcU2+ce33vuieOLy+dVYjyKvFhm6ci0vnRNQ6SzbL5MFyMzppOToXn59fOnCyFXQt46QvJlUlQTlOcLISeCyzIXheHzn1l+teFRLP4y3ZmoYhD1x7wQBpjPVUwxMk9O+7bdHdhnPdOI1JRI5ciUeSnMToV3rukhfmjbQ8vW4l0d//Cse27p+REd6/Lpnp695r/jSdEG+AcB1htApdWT3MP27OGgb/Xtrj6G5nwmJmWaimQ3o9NzezDs6hV6kjDLBVku7tXDap2lCmBU+2o1g4WXzR5GZlAmSfNsGooCiwWRikb16b/9zLbhdxtHVUXsZN8CZqpMnnOVb2EE5epW5CNz0KhByvU6y6WYG3C19rmc3bdaGfD3LBEwK1NZweu5KqCSrPW04XDJq/GmJ4a3TB+s7cjnzz4vlHbWqbndt9vsq6dpdm5ZmoGWxHqP5Phcev+Gpt/QdLZatjaL8uxumahjoVWxaNvBIMWeccWTUmz16LyF77xq8AZ46N9qJXheI7mCxezQzJsDY2Pm6yyfb80sbssFFr+2NSoSInkulb/X9bmkRkmyXa5HnngUSb1IlytRSP5KsfqlBC8R7TE2eVXEi+tcZ2SqRdfBLMKIoIDu+7JCUAwgYoQCTNV/GL2HnQLCJu4knMSep1sHHkU4ANS9QmyMQQCnLALwO9JvPI39Mev3GImjKMR6jOsjlZofMcUaA4+hAIaOG3zTgTFyYogcBsM4UHkwSweCIGAxQQz5YwV1VenXgMJpFLoBJboAB1DAgKNEhGGVR0g3CSNHr4HHMPrmEpUCUU/AAWMPtU7c61Vtxr2u1XPV+9P076ZW1GNuEMWHCbbg7gs4cFRZu1GMIA9BGuIPwutKqyIBBh+jI+DiWhdEyBFRvUETVtmHOSii049rqUsIY/px5b7vIGUM1fS/0WkcE0bcH+j9aBgqd93Q45Vq/fgWqhWmNqRz4MmjCnIDQnHsK7eRMMYQtfDOi7862xOsvpmop2O+0+1dRXO07V8RDuiEhm9zc9B89+u3gdDJ/tH9/hYNZOfqV0/tXg//ABOkHLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
 <booleanAttribute key="attach" value="false"/>
 <stringAttribute key="bootrom.stall" value=""/>
 <stringAttribute key="com.crt.ctrlcenter.OFSemuDetails" value="LinkServer"/>
 <booleanAttribute key="com.crt.ctrlcenter.crtInit" value="true"/>
 <stringAttribute key="com.crt.ctrlcenter.currentWireType" value="SWD"/>
 <booleanAttribute key="com.crt.ctrlcenter.mainBreakIsHardware" value="true"/>
-<stringAttribute key="com.crt.ctrlcenter.serialNumber" value="LinkServerNXP SemiconductorsLPC-LINK2 CMSIS-DAP V5.361GTA5BQPQ"/>
+<booleanAttribute key="com.crt.ctrlcenter.saveState" value="true"/>
+<stringAttribute key="com.crt.ctrlcenter.serialNumber" value="LinkServerNXP SemiconductorsLPC-LINK2 CMSIS-DAP V5.224NSAVBQDQ"/>
 <mapAttribute key="com.crt.ctrlcenter.symbolsGroupSettings"/>
 <intAttribute key="com.crt.ctrlcenter.version" value="6"/>
 <stringAttribute key="com.nxp.mcuxpresso.flash.base.address" value="0x0"/>
@@ -18,7 +20,7 @@
 <stringAttribute key="com.nxp.mcuxpresso.flash.program.action" value="Program"/>
 <booleanAttribute key="com.nxp.mcuxpresso.flash.reset.target" value="true"/>
 <stringAttribute key="com.nxp.mcuxpresso.ide.probe.manufacturer" value="NXP Semiconductors"/>
-<stringAttribute key="com.nxp.mcuxpresso.ide.probe.name" value="LPC-LINK2 CMSIS-DAP V5.361"/>
+<stringAttribute key="com.nxp.mcuxpresso.ide.probe.name" value="LPC-LINK2 CMSIS-DAP V5.224"/>
 <stringAttribute key="com.nxp.mcuxpresso.ide.probe.type" value="LinkServer"/>
 <stringAttribute key="debug.level" value="2"/>
 <stringAttribute key="emu.speed" value=""/>
@@ -59,7 +61,7 @@
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_ON_FORK" value="false"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.EXTERNAL_CONSOLE" value="false"/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value=""/>
-<booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="false"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.REVERSE" value="false"/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.REVERSE_MODE" value="UseSoftTrace"/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.TRACEPOINT_MODE" value="TP_NORMAL_ONLY"/>
@@ -81,7 +83,8 @@
 <mapAttribute key="org.eclipse.debug.core.preferred_launchers">
 <mapEntry key="[debug]" value="com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunch"/>
 </mapAttribute>
-<stringAttribute key="process_factory_id" value="com.nxp.mcuxpresso.core.debug.override.MCXProcessFactory"/>
+<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
+<stringAttribute key="process_factory_id" value="com.crt.dsfdebug.dsf.override.CRTProcessFactory"/>
 <booleanAttribute key="redlink.disable.preconnect.script" value="false"/>
 <booleanAttribute key="redlink.enable.flashhashing" value="true"/>
 <booleanAttribute key="redlink.enable.rangestepping" value="true"/>

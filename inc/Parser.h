@@ -11,7 +11,7 @@
 #include "XYdriver.h"
 #include "Laser.h"
 #include "Servo.h"
-#include "init.h"
+#include "commandData.h"
 using namespace std;
 
 
@@ -19,17 +19,15 @@ using namespace std;
 class GcodeParser {
 private:
 	float y,x;
-	int a, limx, limy, penPos, laserPwr;
-	char Cmnd[10];
+	int a, limUp, limDown, penPos, laserPwr;
 	bool valid;
 	char fullCommand[100];
 	char code[8];
-
-
+	char error[12] = "error1";
 public:
-	GcodeParser(char *str);
+	GcodeParser(char *str, XYdriver *xydriver);
 	virtual ~GcodeParser();
-	bool runCommand(XYdriver *driver,Laser *laser, Servo *servo, LpcUart *vallox);
+	data runCommand();
 };
 
 
