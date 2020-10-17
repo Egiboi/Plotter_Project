@@ -104,7 +104,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 GcodeParser::~GcodeParser() {
 }
 //Run the command, return bool is command valid and has it been run. Check value in call
-data GcodeParser::runCommand(){
+data GcodeParser::getData(){
 	data d;
 	if(valid==true){
 

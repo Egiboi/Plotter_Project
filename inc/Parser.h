@@ -27,7 +27,7 @@ private:
 public:
 	GcodeParser(char *str, XYdriver *xydriver);
 	virtual ~GcodeParser();
-	data runCommand();
+	data getData();
 };
 
 
