@@ -99,9 +99,6 @@ void setupHardware() {
 void vReceiveTask(void *vParameters) {
 
 	int i = 0, SIZE = 80;
-	char c;
-	int count = 0;
-	char str[80];
 	data d;
 	char ok[] = "OK\r\n";
 
@@ -161,7 +158,8 @@ void vExecuteTask(void *vParameters) {
 
 			}
 			else if (strcmp(d.command,"M2") == 0) {
-
+				limUp = d.limUP;
+				limDown = d.limDOWN;
 			}
 			else if (strcmp(d.command,"M1") == 0) {
 				/*if(d.penP == limDown){

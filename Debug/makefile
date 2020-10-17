@@ -44,7 +44,7 @@ all: PlotterProject.axf
 PlotterProject.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -L"C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\lpc_chip_15xx\Debug" -L"C:\Users\winte\Documents\MCUXpressoIDE_11.0.0_2516\USB2\FreeRTOS\Debug" -Xlinker -Map="PlotterProject.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "PlotterProject_Debug.ld" -o "PlotterProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostdlib -L"D:\metropoliaohjelmat\MCUXpressoIDE_11.0.0_2516\ide\Signalboardex2\lpc_board_nxp_lpcxpresso_1549\Debug" -L"D:\metropoliaohjelmat\MCUXpressoIDE_11.0.0_2516\ide\Signalboardex2\lpc_chip_15xx\Debug" -L"D:\metropoliaohjelmat\MCUXpressoIDE_11.0.0_2516\ide\Signalboardex2\FreeRTOS\Debug" -Xlinker -Map="PlotterProject.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "PlotterProject_Debug.ld" -o "PlotterProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
