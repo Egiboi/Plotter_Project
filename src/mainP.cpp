@@ -42,6 +42,7 @@ Laser *laser;
 LpcUart *vallox;
 QueueHandle_t xQueue;
 SemaphoreHandle_t semaBinary,semaMutex;
+volatile int limUp = 160,limDown = 90;
 
 void setupHardware();
 void executeComm(data *d);
@@ -144,12 +145,9 @@ void vExecuteTask(void *vParameters) {
 void executeComm(data *d){
 	char buffer[64];
 	int state1,state2,state3,state4;
-	int limUp,limDown;
 	if (strcmp(d->command,"M10\n") == 0) {
-		sprintf(buffer, "M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U160 D90\n\r", xydriver->totalStepsX,xydriver->totalStepsY);
+		sprintf(buffer, "M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U%d D%d\n\r", xydriver->totalStepsX,xydriver->totalStepsY,limUp,limDown);
 		USB_send((uint8_t *) buffer, strlen(buffer));
-		limUp = 160;
-		limDown = 90;
 		memset(buffer,'\0',sizeof(buffer));
 		xSemaphoreGive(semaBinary);
 	}
@@ -179,7 +177,7 @@ void executeComm(data *d){
 		}else if(d.penP == limUp){
 			servo->move(1650);
 		}*/
-		double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*d->penP);
+		double value = servo->getMin()+(((double)servo->getMax()-(double)servo->getMin())/255*d->penP);
 		servo->move(value);
 		xSemaphoreGive(semaBinary);
 	}
