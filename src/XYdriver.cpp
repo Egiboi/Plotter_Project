@@ -7,9 +7,9 @@
 #include "task.h"
 #include "semphr.h"
 
-XYdriver::XYdriver(DigitalIoPin* dirX, DigitalIoPin* stepX, DigitalIoPin* lim1, DigitalIoPin* lim2,
-		DigitalIoPin* lim3, DigitalIoPin* lim4, DigitalIoPin* dirY, DigitalIoPin* stepY):
-		dirX(dirX),stepX(stepX),lim1(lim1),lim2(lim2),lim3(lim3),lim4(lim4),dirY(dirY),stepY(stepY){
+XYdriver::XYdriver(DigitalIoPin* dirX, DigitalIoPin* stepX, DigitalIoPin* dirY, DigitalIoPin* stepY, DigitalIoPin* lim1, DigitalIoPin* lim2,
+		DigitalIoPin* lim3, DigitalIoPin* lim4):
+		dirX(dirX),stepX(stepX),dirY(dirY),stepY(stepY),lim1(lim1),lim2(lim2),lim3(lim3),lim4(lim4){
 
 	dirXToOrigin = false;
 	dirYToOrigin = false;

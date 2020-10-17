@@ -92,7 +92,7 @@ void setupHardware() {
 	lim4 = new DigitalIoPin(0,0,DigitalIoPin::pullup);
 	dirY = new DigitalIoPin(0,28,DigitalIoPin::output,false);
 	stepY = new DigitalIoPin(0,27,DigitalIoPin::output,false);
-	xydriver = new XYdriver(dirX, stepX, lim1, lim2, lim3, lim4, dirY, stepY);
+	xydriver = new XYdriver(dirX, stepX,dirY, stepY, lim1, lim2, lim3, lim4);
 	servo = new Servo(0,10);
 	laser = new Laser(0,12);
 
@@ -173,12 +173,7 @@ void executeComm(data *d){
 		limDown = d->limDOWN;
 	}
 	else if (strcmp(d->command,"M1") == 0) {
-		/*if(d.penP == limDown){
-			servo->move(1350);
 
-		}else if(d.penP == limUp){
-			servo->move(1650);
-		}*/
 		double value = servo->getMin()+(((double)servo->getMax()-(double)servo->getMin())/255*d->penP);
 		servo->move(value);
 		xSemaphoreGive(semaBinary);
