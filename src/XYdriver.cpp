@@ -54,7 +54,11 @@ void XYdriver::calibration(){
 	totalStepsX = sum / rcount;
 	rcount = 0;
 	sum = 0;
+
+	dirX->write(!dirX->read());
+	RIT_start(20,1000000/(pps*2));
 	xState = false;
+
 
 	// Calculates length of Y-axis
 	yState = true;
@@ -81,7 +85,7 @@ void XYdriver::calibration(){
 	// Takes the plotting head to the middle of the plotting area
 	xState = true;
 	dirX->write(1);
-	RIT_start(totalStepsX,1000000/(pps*2));
+	RIT_start(totalStepsX-20,1000000/(pps*2));
 	xState = false;
 
 	yState = true;
@@ -102,10 +106,10 @@ void XYdriver::step(float x, float y){
 	int dx = x - currentX;
 	int dy = y - currentY;
 
-    dX = (dx < 0) ? dirXToOrigin : !dirXToOrigin;
-    dirX->write(dX);
-    dY = (dy < 0) ? dirYToOrigin : !dirYToOrigin;
-    dirY->write(dY);
+	dX = (dx < 0) ? dirXToOrigin : !dirXToOrigin;
+	dirX->write(dX);
+	dY = (dy < 0) ? dirYToOrigin : !dirYToOrigin;
+	dirY->write(dY);
 
 	if(abs(dx) > abs(dy)){
 		totalLeadSteps = abs(dx);
@@ -122,12 +126,12 @@ void XYdriver::step(float x, float y){
 	p = 2 * totalFolSteps - totalLeadSteps;
 	int steps = totalLeadSteps - currentLeadSteps;
 	//(currentLeadSteps < totalLeadSteps){
-		/*if(currentLeadSteps < (0.2*totalLeadSteps)){
+	/*if(currentLeadSteps < (0.2*totalLeadSteps)){
 			pps++;
 		}else if(currentLeadSteps > (0.80*totalLeadSteps)){
 			pps--;
 		}*/
-		RIT_start(steps*2,1000000/(pps*2));
+	RIT_start(steps*2,1000000/(pps*2));
 	//}
 	if (abs(dx) > abs(dy)) {
 		currentX = (dX == dirXToOrigin) ? (currentX - currentLeadSteps) : (currentX + currentLeadSteps);
@@ -164,7 +168,7 @@ bool XYdriver::IRQHandlerCali(void)
 	}
 
 	// End the ISR and (possibly) do a context switch
-	 return xHigherPriorityWoken;
+	return xHigherPriorityWoken;
 
 }
 bool XYdriver::IRQHandler(void){
@@ -178,10 +182,10 @@ bool XYdriver::IRQHandler(void){
 	bool maxY = !lim4->read() && (dY == !dirYToOrigin);
 
 	if (minX || maxX || minY || maxY) {
-		 //motors hit limit switches, stop
-		 Chip_RIT_Disable(LPC_RITIMER);
-		 xSemaphoreGiveFromISR(sbRIT, &xHigherPriorityWoken);
-    }
+		//motors hit limit switches, stop
+		Chip_RIT_Disable(LPC_RITIMER);
+		xSemaphoreGiveFromISR(sbRIT, &xHigherPriorityWoken);
+	}
 	if ((RIT_count > 0) && ((RIT_count % 2) == 0)) {
 		RIT_count--;
 		lead->write(1);
@@ -203,7 +207,7 @@ bool XYdriver::IRQHandler(void){
 		xSemaphoreGiveFromISR(sbRIT, &xHigherPriorityWoken);
 	}
 
-    return xHigherPriorityWoken;
+	return xHigherPriorityWoken;
 
 }
 void XYdriver::RIT_start(int count, int pps)

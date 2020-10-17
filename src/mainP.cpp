@@ -44,6 +44,7 @@ QueueHandle_t xQueue;
 SemaphoreHandle_t semaBinary,semaMutex;
 
 void setupHardware();
+void executeComm(data *d);
 void vExecuteTask(void *vParameters);
 void vReceiveTask(void *vParameters);
 
@@ -99,9 +100,6 @@ void setupHardware() {
 void vReceiveTask(void *vParameters) {
 
 	int i = 0, SIZE = 80;
-	char c;
-	int count = 0;
-	char str[80];
 	data d;
 	char ok[] = "OK\r\n";
 
@@ -110,7 +108,7 @@ void vReceiveTask(void *vParameters) {
 	vTaskDelay(configTICK_RATE_HZ);
     //Loop reading data from Virtual com port
 	while(1){
-		int len = USB_receive((uint8_t *) (buffer + i), SIZE);
+		USB_receive((uint8_t *) (buffer + i), SIZE);
 		char *pos = strstr((buffer + i), "\n");
 		if(pos != NULL){
 			//Parse data and push to queue
@@ -131,9 +129,6 @@ void vReceiveTask(void *vParameters) {
 }
 void vExecuteTask(void *vParameters) {
 	data d;
-	char buffer[64];
-	int state1,state2,state3,state4;
-	int limUp,limDown;
 	vTaskDelay(configTICK_RATE_HZ);
 
 	while(1){
@@ -142,68 +137,75 @@ void vExecuteTask(void *vParameters) {
 		}
 		//Wait on queue items and run data to final functions, give binary semaphore after completion
 		else if(xQueueReceive( xQueue, &d , portMAX_DELAY) == pdTRUE){
-			if (strcmp(d.command,"M10\n") == 0) {
-				sprintf(buffer, "M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U160 D90\n\r", xydriver->totalStepsX,xydriver->totalStepsY);
-				USB_send((uint8_t *) buffer, strlen(buffer));
-				limUp = 160;
-				limDown = 90;
-				memset(buffer,'\0',sizeof(buffer));
-				xSemaphoreGive(semaBinary);
-			}
-			else if (strcmp(d.command,"M11\n") == 0) {
-				if(lim1->read() ==  1) state1 = 1;
-				else state1 = 0;
-				if(lim2->read() ==  1) state2 = 1;
-				else state2 = 0;
-				if(lim3->read() ==  1) state3 = 1;
-				else state3 = 0;
-				if(lim4->read() ==  1) state4 = 1;
-				else state4 = 0;
-				sprintf(buffer,"M11 %d %d %d %d\r\n",state4, state3, state2 , state1);
-				USB_send((uint8_t *) buffer, strlen(buffer));
-				memset(buffer,'\0',sizeof(buffer));
-				xSemaphoreGive(semaBinary);
-
-			}
-			else if (strcmp(d.command,"M2") == 0) {
-
-			}
-			else if (strcmp(d.command,"M1") == 0) {
-				/*if(d.penP == limDown){
-					servo->move(1350);
-
-				}else if(d.penP == limUp){
-					servo->move(1650);
-				}*/
-				double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*d.penP);
-				servo->move(value);
-				xSemaphoreGive(semaBinary);
-			}
-			else if (strcmp(d.command,"M4") == 0) {
-				if(d.laserPow == 0){
-					laser->changeLaserPower(0);
-				}else{
-					laser->changeLaserPower(d.laserPow);
-				}
-				xSemaphoreGive(semaBinary);
-
-			}
-			else if (strcmp(d.command,"G28\n") == 0) {
-				xydriver->step(1, 1);
-				xSemaphoreGive(semaBinary);
-			}
-			else if (strcmp(d.command,"G1") == 0) {
-				if(d.x == -1 || d.y == -1){
-					//skip
-				}else{
-					xydriver->step(d.x,d.y);
-				}
-				xSemaphoreGive(semaBinary);
-			}
+			executeComm(&d);
 		}else{vTaskDelay(configTICK_RATE_HZ/1000);}
 	}
 }
+void executeComm(data *d){
+	char buffer[64];
+	int state1,state2,state3,state4;
+	int limUp,limDown;
+	if (strcmp(d->command,"M10\n") == 0) {
+		sprintf(buffer, "M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U160 D90\n\r", xydriver->totalStepsX,xydriver->totalStepsY);
+		USB_send((uint8_t *) buffer, strlen(buffer));
+		limUp = 160;
+		limDown = 90;
+		memset(buffer,'\0',sizeof(buffer));
+		xSemaphoreGive(semaBinary);
+	}
+	else if (strcmp(d->command,"M11\n") == 0) {
+		if(lim1->read() ==  1) state1 = 1;
+		else state1 = 0;
+		if(lim2->read() ==  1) state2 = 1;
+		else state2 = 0;
+		if(lim3->read() ==  1) state3 = 1;
+		else state3 = 0;
+		if(lim4->read() ==  1) state4 = 1;
+		else state4 = 0;
+		sprintf(buffer,"M11 %d %d %d %d\r\n",state4, state3, state2 , state1);
+		USB_send((uint8_t *) buffer, strlen(buffer));
+		memset(buffer,'\0',sizeof(buffer));
+		xSemaphoreGive(semaBinary);
 
+	}
+	else if (strcmp(d->command,"M2") == 0) {
+		limUp = d->limUP;
+		limDown = d->limDOWN;
+	}
+	else if (strcmp(d->command,"M1") == 0) {
+		/*if(d.penP == limDown){
+			servo->move(1350);
+
+		}else if(d.penP == limUp){
+			servo->move(1650);
+		}*/
+		double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*d->penP);
+		servo->move(value);
+		xSemaphoreGive(semaBinary);
+	}
+	else if (strcmp(d->command,"M4") == 0) {
+		if(d->laserPow == 0){
+			laser->changeLaserPower(0);
+		}else{
+			laser->changeLaserPower(d->laserPow);
+		}
+		xSemaphoreGive(semaBinary);
+
+	}
+	else if (strcmp(d->command,"G28\n") == 0) {
+		xydriver->step(1, 1);
+		xSemaphoreGive(semaBinary);
+	}
+	else if (strcmp(d->command,"G1") == 0) {
+		if(d->x == -1 || d->y == -1){
+			//skip
+		}else{
+			xydriver->step(d->x,d->y);
+		}
+		xSemaphoreGive(semaBinary);
+	}
+
+}
 extern "C" {
 
 void RIT_IRQHandler(void) {
