@@ -143,6 +143,8 @@ void vExecuteTask(void *vParameters) {
 	}
 }
 void executeComm(data *d){
+
+	//different commands that are described in the document
 	char buffer[64];
 	int state1,state2,state3,state4;
 	if (strcmp(d->command,"M10\n") == 0) {
