@@ -82,7 +82,6 @@ void setupHardware() {
 
 	Board_LED_Set(0, false);
 
-
 	dirX = new DigitalIoPin(1,0,DigitalIoPin::output,false);
 	stepX = new DigitalIoPin(0,24,DigitalIoPin::output,false);
 	lim1 = new DigitalIoPin(0,9,DigitalIoPin::pullup);
@@ -98,9 +97,14 @@ void setupHardware() {
 	laser->changeLaserPower(-1); 		// Sets laser power to zero
 }
 void vReceiveTask(void *vParameters) {
+
 	int i = 0, SIZE = 80;
+	char c;
+	int count = 0;
+	char str[80];
 	data d;
 	char ok[] = "OK\r\n";
+
 	char buffer[SIZE];
 
 	vTaskDelay(configTICK_RATE_HZ);
@@ -124,6 +128,8 @@ void vReceiveTask(void *vParameters) {
 void vExecuteTask(void *vParameters) {
 	data d;
 	char buffer[64];
+	int state1,state2,state3,state4;
+	int limUp,limDown;
 	vTaskDelay(configTICK_RATE_HZ);
 
 	while(1){
@@ -132,24 +138,40 @@ void vExecuteTask(void *vParameters) {
 		}
 		else if(xQueueReceive( xQueue, &d , portMAX_DELAY) == pdTRUE){
 			if (strcmp(d.command,"M10\n") == 0) {
-				sprintf(buffer, "M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80\n\r", xydriver->totalStepsX,xydriver->totalStepsY);
+				sprintf(buffer, "M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U160 D90\n\r", xydriver->totalStepsX,xydriver->totalStepsY);
 				USB_send((uint8_t *) buffer, strlen(buffer));
+				limUp = 160;
+				limDown = 90;
 				memset(buffer,'\0',sizeof(buffer));
 				xSemaphoreGive(semaBinary);
 			}
 			else if (strcmp(d.command,"M11\n") == 0) {
+				if(lim1->read() ==  1) state1 = 1;
+				else state1 = 0;
+				if(lim2->read() ==  1) state2 = 1;
+				else state2 = 0;
+				if(lim3->read() ==  1) state3 = 1;
+				else state3 = 0;
+				if(lim4->read() ==  1) state4 = 1;
+				else state4 = 0;
+				sprintf(buffer,"M11 %d %d %d %d\r\n",state4, state3, state2 , state1);
+				USB_send((uint8_t *) buffer, strlen(buffer));
+				memset(buffer,'\0',sizeof(buffer));
+				xSemaphoreGive(semaBinary);
 
 			}
 			else if (strcmp(d.command,"M2") == 0) {
 
 			}
 			else if (strcmp(d.command,"M1") == 0) {
-				if(d.penP == 90){
+				/*if(d.penP == limDown){
 					servo->move(1350);
 
-				}else if(d.penP == 130){
+				}else if(d.penP == limUp){
 					servo->move(1650);
-				}
+				}*/
+				double value = servo->getMin()+((servo->getMax()-servo->getMin())/255*d.penP);
+				servo->move(value);
 				xSemaphoreGive(semaBinary);
 			}
 			else if (strcmp(d.command,"M4") == 0) {

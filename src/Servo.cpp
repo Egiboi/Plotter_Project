@@ -21,8 +21,8 @@ Servo::Servo(int port0, int pin0): port(port0), pin(pin0){
 	LPC_SCT0->OUT[0].SET = (1 << 0);            // event 0 will set SCTx_OUT0
 	LPC_SCT0->OUT[0].CLR = (1 << 1);            // event 1 will clear SCTx_OUT0
 	LPC_SCT0->CTRL_L &= ~(1 << 2);
-
-
+	min = 1200;
+	max = 1900;
 }
 void Servo::move(double value){
 	if(value > LPC_SCT0->MATCHREL[1].L){
@@ -40,5 +40,31 @@ void Servo::move(double value){
 	dutyCycle = value/20000;
 	lastValue = value;
 	//xSemaphoreGive(sDone);
+}
+bool Servo::setMin(int value){
+	if(value>hardMin&&value<max){
+		min=value;
+		return true;
+		//Changed min value
+	}else{
+		return false;
+		//Change value out of hard bounds
+	}
+}
+bool Servo::setMax(int value){
+	if(value<hardMax&&value>min){
+		max=value;
+		return true;
+		//changed  max value
+	}else{
+		return false;
+		//Change value out of hard bounds
+	}
+}
+int Servo::getMin(){
+	return min;
+}
+int Servo::getMax(){
+	return max;
 }
 Servo::~Servo(){}

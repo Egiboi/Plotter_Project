@@ -60,7 +60,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 	else if (strcmp("M1", code) == 0) {
 		if(sscanf(str, "M1 %d", &penPos)==1){
 
-			if (penPos <= 140 && penPos >= 80) {
+			if (penPos <= 160 && penPos >= 80) {
 				valid = true;
 			} else {
 				valid = false;
@@ -117,7 +117,8 @@ data GcodeParser::runCommand(){
 		}
 		else if (strcmp(code,"M2") == 0) {
 			strcpy(d.command, code);
-
+			d.limUP = limUp;
+			d.limDOWN = limDown;
 		}
 		else if (strcmp(code,"M1") == 0) {
 			strcpy(d.command, code);

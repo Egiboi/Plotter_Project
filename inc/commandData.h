@@ -16,7 +16,8 @@ struct data {
 	int laserPow = 0;
 	long totalX = 0;
 	long totalY = 0;
-
+	int limUP = 0;
+	int limDOWN = 0;
 
 	char error[16] = "Error!\r\n";
 
