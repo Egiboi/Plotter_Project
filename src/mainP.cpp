@@ -115,7 +115,7 @@ void vReceiveTask(void *vParameters) {
 		if(pos != NULL){
 			ITM_write(buffer);
 			GcodeParser parser(buffer, xydriver);
-			d = parser.runCommand();
+			d = parser.getData();
 			xQueueSendToBack(xQueue, &d, portMAX_DELAY);
 			xSemaphoreTake(semaBinary, portMAX_DELAY);
 			USB_send((uint8_t *) ok, strlen(ok));
