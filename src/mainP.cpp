@@ -108,17 +108,21 @@ void vReceiveTask(void *vParameters) {
 	char buffer[SIZE];
 
 	vTaskDelay(configTICK_RATE_HZ);
-
+    //Loop reading data from Virtual com port
 	while(1){
 		int len = USB_receive((uint8_t *) (buffer + i), SIZE);
 		char *pos = strstr((buffer + i), "\n");
 		if(pos != NULL){
+			//Parse data and push to queue
 			ITM_write(buffer);
 			GcodeParser parser(buffer, xydriver);
 			d = parser.getData();
 			xQueueSendToBack(xQueue, &d, portMAX_DELAY);
+			//Wait for queue item to be executed
 			xSemaphoreTake(semaBinary, portMAX_DELAY);
+			//reply ok to get next command from mDraw
 			USB_send((uint8_t *) ok, strlen(ok));
+			//Clear buffer
 			memset(buffer, '\0', sizeof(buffer));
 			i = 0;
 		}
@@ -136,6 +140,7 @@ void vExecuteTask(void *vParameters) {
 		if(xydriver->calibrate){
 			xydriver->calibration();
 		}
+		//Wait on queue items and run data to final functions, give binary semaphore after completion
 		else if(xQueueReceive( xQueue, &d , portMAX_DELAY) == pdTRUE){
 			if (strcmp(d.command,"M10\n") == 0) {
 				sprintf(buffer, "M10 XY %ld %ld 0.00 0.00 A0 B0 H0 S80 U160 D90\n\r", xydriver->totalStepsX,xydriver->totalStepsY);

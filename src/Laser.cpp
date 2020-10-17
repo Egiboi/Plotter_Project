@@ -18,6 +18,7 @@ Laser::Laser(int port_, int pin_): port(port_), pin(pin_) {
 Laser::~Laser() {
 
 }
+//Set Laser pwm frequency
 void Laser::changeLaserPower(int pow) {
 	if (pow <= -1 || pow == 0) {
 		m_pow = 20;

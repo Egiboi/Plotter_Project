@@ -21,9 +21,11 @@ Servo::Servo(int port0, int pin0): port(port0), pin(pin0){
 	LPC_SCT0->OUT[0].SET = (1 << 0);            // event 0 will set SCTx_OUT0
 	LPC_SCT0->OUT[0].CLR = (1 << 1);            // event 1 will clear SCTx_OUT0
 	LPC_SCT0->CTRL_L &= ~(1 << 2);
+	//Default min, max
 	min = 1200;
 	max = 1900;
 }
+//Function to drive servo arm to desired level. Jump to new level is not immediately done, it is run to new level once per tick
 void Servo::move(double value){
 	if(value > LPC_SCT0->MATCHREL[1].L){
 		while(LPC_SCT0->MATCHREL[1].L <= value){
@@ -41,6 +43,7 @@ void Servo::move(double value){
 	lastValue = value;
 	//xSemaphoreGive(sDone);
 }
+//Function to set level for pen down in microcontroller
 bool Servo::setMin(int value){
 	if(value>hardMin&&value<max){
 		min=value;
@@ -51,6 +54,7 @@ bool Servo::setMin(int value){
 		//Change value out of hard bounds
 	}
 }
+//Function to set level for pen up in microcontroller
 bool Servo::setMax(int value){
 	if(value<hardMax&&value>min){
 		max=value;
@@ -61,9 +65,11 @@ bool Servo::setMax(int value){
 		//Change value out of hard bounds
 	}
 }
+//Get down level set in microcontroller
 int Servo::getMin(){
 	return min;
 }
+//Get up level set in microcontroller
 int Servo::getMax(){
 	return max;
 }

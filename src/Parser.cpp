@@ -15,16 +15,17 @@ using namespace std;
 
 GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 	data d;
-
+	//Check data lenght
 	if(strlen(str)<sizeof(fullCommand)/sizeof(char)){
 		strcpy(fullCommand,str);
 	}
 	x=0;
 	size_t i = 0;
+	//Find Gcode command type end point
 	while (str[i] != ' '&& strlen(str)>i && str[i] && str[i] != 165) {
 		i++;
 	}
-
+	// Set code to Gcode command type
 	for(size_t j = 0; j < i; ++j){
 		code[j] = str[j];
 		code[j+1] = '\0';
@@ -32,7 +33,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 
 	char array[50]= {};
 	strcpy(array,str);
-
+	//Validate M10 command
 	if (strcmp("M10\n", code) == 0) {
 		if (strcmp("M10\n", code) == 0) {
 			valid = true;
@@ -40,6 +41,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 			valid = false;
 		}
 	}
+	//Validate M11 command
 	else if (strcmp("M11\n", code) == 0) {
 		if(strcmp("M11\n", str) == 0) {
 			valid = true;
@@ -47,6 +49,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 			valid = false;
 		}
 	}
+	//Validate M2 command
 	else if (strcmp("M2", code) == 0) {
 		if(sscanf(str, "M2 U%d D%d", &limUp, &limDown)==2){
 
@@ -57,6 +60,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 			valid = false;
 		}
 	}
+	//Validate M1 command
 	else if (strcmp("M1", code) == 0) {
 		if(sscanf(str, "M1 %d", &penPos)==1){
 
@@ -69,6 +73,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 			valid = false;
 		}
 	}
+	//Validate M4 command
 	else if (strcmp("M4", code) == 0) {
 		if(sscanf(str, "M4 %d", &laserPwr)==1){
 			if (laserPwr <= 255 && laserPwr >= 0) {
@@ -80,6 +85,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 			valid=false;
 		}
 	}
+	//Validate G28 command
 	else if (strcmp("G28\n", code) == 0) {
 		if (strcmp("G28\n", code) == 0) {
 			valid = true;
@@ -87,6 +93,7 @@ GcodeParser::GcodeParser(char *str, XYdriver *xydriver) {
 			valid = false;
 		}
 	}
+	//Validate G1 command
 	else if (strcmp("G1", code) == 0) {
 		if(sscanf(array,"G1 X%f Y%f A%d", &x, &y, &a)==3){
 			if (x <= xydriver->totalStepsX  && y <= xydriver->totalStepsY && (a >= 0 || a <= 100000 )) {
